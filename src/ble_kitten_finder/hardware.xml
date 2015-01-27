@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hardware>
+    <sleeposc enable="true" ppm="30" />
+    <usb enable="false" endpoint="none" />
+    <txpower power="15" bias="5" />
+    <script enable="true" />
+	<slow_clock enable="false" />
+	<sleep enable="true" />
+    <port index="0" pull="up" tristatemask="0" />
+    <port index="1" pull="up" tristatemask="79" />
+    <port index="1" pull="down" tristatemask="8" />
+    <port index="2" pull="up" tristatemask="0" />
+	<wakeup_pin enable="true" port="1" pin="3" state="up" />
+	<timer index="1" enabled_channels="0x01" divisor="0" mode="2" alternate="2" />
+	</hardware>
