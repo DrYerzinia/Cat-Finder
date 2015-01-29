@@ -1,0 +1,74 @@
+v 20130925 2
+P 0 1200 400 1200 1 0 0
+{
+T 0 1200 5 10 0 0 0 6 1
+pintype=unknown
+T 455 1195 5 10 1 1 0 0 1
+pinlabel=VIN
+T 305 1245 5 10 1 1 0 6 1
+pinnumber=3
+T 0 1200 5 10 0 0 0 6 1
+pinseq=0
+}
+P 0 800 400 800 1 0 0
+{
+T 0 800 5 10 0 0 0 6 1
+pintype=unknown
+T 455 795 5 10 1 1 0 0 1
+pinlabel=GND
+T 305 845 5 10 1 1 0 6 1
+pinnumber=4
+T 0 800 5 10 0 0 0 6 1
+pinseq=0
+}
+P 0 400 400 400 1 0 0
+{
+T 0 400 5 10 0 0 0 6 1
+pintype=unknown
+T 455 395 5 10 1 1 0 0 1
+pinlabel=ON/BYP
+T 305 445 5 10 1 1 0 6 1
+pinnumber=5
+T 0 400 5 10 0 0 0 6 1
+pinseq=0
+}
+P 2100 1200 1700 1200 1 0 0
+{
+T 2100 1200 5 10 0 0 0 0 1
+pintype=unknown
+T 2100 1200 5 10 0 0 0 0 1
+pinseq=0
+T 1645 1195 5 10 1 1 0 6 1
+pinlabel=SW
+T 1795 1245 5 10 1 1 0 0 1
+pinnumber=2
+}
+P 2100 800 1700 800 1 0 0
+{
+T 2100 800 5 10 0 0 0 0 1
+pintype=unknown
+T 2100 800 5 10 0 0 0 0 1
+pinseq=0
+T 1645 795 5 10 1 1 0 6 1
+pinlabel=VOUT
+T 1795 845 5 10 1 1 0 0 1
+pinnumber=6
+}
+P 2100 400 1700 400 1 0 0
+{
+T 2100 400 5 10 0 0 0 0 1
+pintype=unknown
+T 2100 400 5 10 0 0 0 0 1
+pinseq=0
+T 1645 395 5 10 1 1 0 6 1
+pinlabel=STAT
+T 1795 445 5 10 1 1 0 0 1
+pinnumber=1
+}
+B 400 200 1300 1200 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1700 1500 8 10 1 1 0 6 1
+de=TPS62730
+T 400 1500 8 10 1 1 0 0 1
+refdes=U?
+T 400 100 8 10 1 1 0 2 1
+footprint=DSON6
