@@ -5,7 +5,7 @@ FileVersion[20091103]
 
 PCB["" 3200.00mil 1000.00mil]
 
-Grid[100.000000 0.0000 0.0000 0]
+Grid[600.000000 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[7.00mil 8.00mil 8.00mil 8.00mil 8.00mil 7.00mil]
@@ -787,7 +787,7 @@ Symbol['~' 12.00mil]
 )
 Attribute("import::src0" "/home/mike/Cat-Finder/schem/BLE_control_board.sch")
 Attribute("PCB::grid::unit" "mil")
-Attribute("PCB::grid::size" "1.00mil")
+Attribute("PCB::grid::size" "6.00mil")
 
 Element["hidename" "0402" "C6" "1uF" 571.00mil 754.00mil -34.71mil 0.7499mm 2 100 ""]
 (
@@ -1390,7 +1390,7 @@ Element["hidename" "SOD323" "Z1" "2.8v" 2546.00mil 382.00mil 0.0000 93.00mil 2 1
 
 	)
 
-Element["" "BLE112A_small" "U1" "ic" 497.00mil 485.00mil 0.0000 0.0000 1 100 ""]
+Element["hidename" "BLE112A_small" "U1" "ic" 497.00mil 485.00mil 0.0000 0.0000 1 100 "selected"]
 (
 	Attribute("device" "BLE112")
 	Attribute("manufacturer" "unknown")

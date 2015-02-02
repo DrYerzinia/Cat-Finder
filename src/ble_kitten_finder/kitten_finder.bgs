@@ -29,13 +29,13 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
 	# P1_0/1 will leak current if not externally pulled or set as outputs
 	call hardware_io_port_config_direction(0, $0)
 	call hardware_io_port_write(0, $ff, $ff)
-	call hardware_io_port_config_direction(1, $47)
+	call hardware_io_port_config_direction(1, $5F)
 	call hardware_io_port_write(1, $ff, $00)
 	call hardware_io_port_config_direction(2, $0)
 	call hardware_io_port_write(2, $ff, $ff)
 	
-	# configure P1.0 and P1.3 as output
-	call hardware_io_port_config_direction(1, 9)
+	# configure P1.0 and P1.4 as output
+	call hardware_io_port_config_direction(1, $11)
 
 	# Disable P1.0 pin. Parameters: I/O port to write to 0/1/2,
 	#bitmask of pins to modify,
@@ -51,8 +51,8 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
 		cat_name(3:1) = $6B	# 'k'
 		cat_name(4:1) = $6E	# 'n'
 		cat_name(5:1) = $6F	# 'o'
-	cat_name(6:1) = $77	# 'w'
-	cat_name(7:1) = $6E	# 'n'
+		cat_name(6:1) = $77	# 'w'
+		cat_name(7:1) = $6E	# 'n'
 		call flash_ps_save($8000, 18, cat_name(0:18))
 	end if
 
@@ -105,17 +105,17 @@ event hardware_soft_timer(handle)
 	# blink and beep when connected to help user find collar
 	if handle = 1 then
 		if state then
-		call hardware_io_port_write(1, 1, 1)
-			call hardware_io_port_write(1, 8, 8)
+			# Turn on LED and WAKE
+			call hardware_io_port_write(1, $11, $11)
 			call hardware_timer_comparator(1, 0, 2, 10666)
 			state = 0
 			call hardware_set_soft_timer(10000, 1, 0)
 		else
-			call hardware_io_port_write(1, 1, 0)
-		call hardware_io_port_write(1, 8, 0)
-		call hardware_timer_comparator(1, 0, 1, 0)
-		state = 1
-		call hardware_set_soft_timer(150000, 1, 0)
+			# Turn off LED and WAKE
+			call hardware_io_port_write(1, $11, 0)
+			call hardware_timer_comparator(1, 0, 1, 0)
+			state = 1
+			call hardware_set_soft_timer(150000, 1, 0)
 		end if
 	end if
 
