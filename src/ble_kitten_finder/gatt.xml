@@ -4,9 +4,10 @@
     <service uuid="1800">
       <description>Generic Access Profile</description>
 
-      <characteristic uuid="2a00">
-        <properties read="true" const="true" />
-        <value>Kitten Finder</value>
+      <characteristic uuid="2A00" id="c_device_name">
+		<description>Device Name</description>
+        <properties read="true" />
+        <value length="18" />
       </characteristic>
 
       <characteristic uuid="2a01">
@@ -40,6 +41,13 @@
         <properties read="true" write="true" />
         <value length="1" type="hex">01</value>
       </characteristic>
-    </service>
+      <description>LED Control Service</description>
+      <characteristic uuid="ee7c328f-6d47-4935-96ae-7ab28942074d" id="xcat_name">
+        <description>Cat's Name</description>
+        <properties read="true" write="true" />
+        <value length="18" type="hex">000000000000000000000000000000000000</value>
+      </characteristic>
+	  </service>
 </configuration>
+
 
