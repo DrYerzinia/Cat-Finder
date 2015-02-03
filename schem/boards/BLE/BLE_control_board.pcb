@@ -9,7 +9,7 @@ Grid[600.000000 0.0000 0.0000 0]
 PolyArea[3100.006200]
 Thermal[0.500000]
 DRC[7.00mil 8.00mil 8.00mil 8.00mil 8.00mil 7.00mil]
-Flags("nameonpcb,clearnew")
+Flags("nameonpcb")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,8.00mil,8.00mil,20.00mil,8.00mil:Power,25.00mil,60.00mil,35.00mil,10.00mil:Fat,40.00mil,60.00mil,35.00mil,10.00mil:Skinny,6.00mil,24.02mil,11.81mil,6.00mil"]
 
@@ -785,15 +785,9 @@ Symbol['~' 12.00mil]
 	SymbolLine[15.00mil 35.00mil 20.00mil 35.00mil 8.00mil]
 	SymbolLine[20.00mil 35.00mil 25.00mil 30.00mil 8.00mil]
 )
-Attribute("import::src0" "/home/mike/Cat-Finder/schem/BLE_control_board.sch")
+Attribute("import::src0" "/home/mike/git/Cat-Finder/schem/boards/BLE/BLE_control_board.sch")
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "6.00mil")
-
-Element["hidename" "BLE112A_small" "U1" "ic" 499.00mil 485.00mil 0.0000 0.0000 1 100 ""]
-(
-	Attribute("vendor" "mouser")
-	Attribute("vendor_part_number" "603-BLE112-A")
-	)
 
 Element["hidename" "0402" "C6" "1uF" 571.00mil 754.00mil -34.71mil 0.7499mm 2 100 ""]
 (
@@ -1396,13 +1390,13 @@ Element["hidename" "SOD323" "Z1" "2.8v" 2546.00mil 382.00mil 0.0000 93.00mil 2 1
 
 	)
 
-Element["hidename" "BLE112A_small" "U1" "ic" 497.00mil 485.00mil 0.0000 0.0000 1 100 "selected"]
+Element["hidename,selected" "BLE112A_small" "U1" "ic" 497.00mil 485.00mil 0.0000 0.0000 1 100 "selected"]
 (
 	Attribute("device" "BLE112")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
 	Attribute("vendor" "mouser")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor_part_number" "603-BLE112-A")
 	Pad[-7.5000mm 4.9500mm -7.5000mm 6.3750mm 0.8500mm 0.8500mm 0.8500mm "GND" "1" "edge2"]
 	Pad[-6.2500mm 4.9500mm -6.2500mm 6.3750mm 0.8500mm 0.8500mm 0.8500mm "AVDD" "2" "edge2"]
 	Pad[-5.0000mm 4.9500mm -5.0000mm 6.3750mm 0.8500mm 0.8500mm 0.8500mm "AVDD" "3" "edge2"]
@@ -1447,8 +1441,6 @@ Layer(1 "top")
 	Line[206.00mil 723.00mil 206.00mil 633.00mil 25.00mil 20.00mil ""]
 	Line[546.00mil 738.00mil 546.00mil 628.00mil 25.00mil 20.00mil ""]
 	Line[886.00mil 513.00mil 781.00mil 513.00mil 25.00mil 20.00mil ""]
-	Line[886.00mil 318.00mil 831.00mil 318.00mil 25.00mil 20.00mil ""]
-	Line[831.00mil 318.00mil 791.00mil 358.00mil 25.00mil 20.00mil ""]
 	Line[555.00mil 748.00mil 548.00mil 741.00mil 8.00mil 16.00mil "clearline"]
 	Line[846.00mil 229.00mil 861.00mil 244.00mil 8.00mil 16.00mil "clearline"]
 	Line[450.00mil 248.00mil 450.00mil 216.00mil 8.00mil 16.00mil "clearline"]
@@ -1742,6 +1734,11 @@ Layer(1 "top")
 	Line[2488.00mil 354.00mil 2497.00mil 345.00mil 8.00mil 16.00mil "clearline"]
 	Line[2497.00mil 345.00mil 2544.00mil 345.00mil 8.00mil 16.00mil "clearline"]
 	Line[1262.00mil 609.00mil 886.00mil 609.00mil 8.00mil 16.00mil "clearline"]
+	Line[792.00mil 336.00mil 804.00mil 336.00mil 25.00mil 20.00mil ""]
+	Line[804.00mil 336.00mil 822.00mil 318.00mil 25.00mil 20.00mil ""]
+	Line[822.00mil 318.00mil 828.00mil 318.00mil 25.00mil 20.00mil ""]
+	Line[828.00mil 318.00mil 834.00mil 312.00mil 25.00mil 20.00mil ""]
+	Line[834.00mil 312.00mil 888.00mil 312.00mil 25.00mil 20.00mil ""]
 	Polygon("clearpoly")
 	(
 		[188.00mil 485.00mil] [188.00mil 702.00mil] [856.00mil 702.00mil] [856.00mil 271.00mil] [384.00mil 271.00mil] 
@@ -1837,11 +1834,14 @@ NetList()
 		Connect("U1-30")
 		Connect("U2-1")
 		Connect("U2-4")
+		Connect("U3-4")
+		Connect("U30-2")
 		Connect("Z1-1")
 	)
 	Net("RegEn" "(unknown)")
 	(
 		Connect("U1-19")
+		Connect("U3-5")
 	)
 	Net("Reset" "(unknown)")
 	(
@@ -1905,39 +1905,47 @@ NetList()
 	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("L1-1")
+		Connect("U3-2")
 	)
 	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("L30-2")
 		Connect("R31-2")
+		Connect("U30-3")
 	)
 	Net("unnamed_net13" "(unknown)")
+	(
+		Connect("C34-1")
+		Connect("R31-1")
+		Connect("U30-1")
+		Connect("U30-8")
+	)
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("C31-1")
 		Connect("R32-2")
 		Connect("R34-1")
+		Connect("U30-4")
 		Connect("Z1-2")
-	)
-	Net("unnamed_net14" "(unknown)")
-	(
-		Connect("C32-2")
-		Connect("R32-1")
 	)
 	Net("unnamed_net15" "(unknown)")
 	(
-		Connect("C32-1")
-		Connect("R33-1")
+		Connect("C32-2")
+		Connect("R32-1")
+		Connect("U30-7")
 	)
 	Net("unnamed_net16" "(unknown)")
+	(
+		Connect("C32-1")
+		Connect("R33-1")
+		Connect("U30-6")
+	)
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("C35-1")
 		Connect("R35-1")
 		Connect("R36-2")
-	)
-	Net("unnamed_net17" "(unknown)")
-	(
-		Connect("C34-1")
-		Connect("R31-1")
+		Connect("U30-5")
 	)
 	Net("VBat" "(unknown)")
 	(
@@ -1956,6 +1964,7 @@ NetList()
 		Connect("J9-2")
 		Connect("L1-2")
 		Connect("U1-20")
+		Connect("U3-6")
 	)
 	Net("VBle1" "(unknown)")
 	(
@@ -1971,6 +1980,7 @@ NetList()
 		Connect("J6-1")
 		Connect("J7-1")
 		Connect("J9-1")
+		Connect("U3-3")
 	)
 	Net("VSolar" "(unknown)")
 	(
