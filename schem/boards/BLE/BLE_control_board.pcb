@@ -789,13 +789,13 @@ Attribute("import::src0" "/home/mike/git/Cat-Finder/schem/BLE_control_board.sch"
 Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "1.00mil")
 
-Element["hidename" "BLE112A_small" "U1" "unknown" 499.00mil 485.00mil 0.0000 0.0000 1 100 ""]
+Element["hidename" "BLE112A_small" "U1" "ic" 499.00mil 485.00mil 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "BLE112")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "mouser")
+	Attribute("vendor_part_number" "603-BLE112-A")
 	Pad[-7.5000mm 5.6750mm -7.5000mm 6.3750mm 0.8500mm 0.8500mm 0.8500mm "GND" "1" "edge2"]
 	Pad[-6.2500mm 5.6750mm -6.2500mm 6.3750mm 0.8500mm 0.8500mm 0.8500mm "AVDD" "2" "edge2"]
 	Pad[-5.0000mm 5.6750mm -5.0000mm 6.3750mm 0.8500mm 0.8500mm 0.8500mm "AVDD" "3" "edge2"]
@@ -834,8 +834,8 @@ Element["hidename" "0402" "C6" "1uF" 571.00mil 754.00mil -34.71mil 0.7499mm 2 10
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-1320-1-ND")
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -846,32 +846,32 @@ Element["hidename" "0402" "C5" "1uF" 231.00mil 769.00mil 1.0034mm -0.6646mm 0 10
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-1320-1-ND")
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "0402" "J9" "unknown" 1201.00mil 306.00mil 2.8248mm 1.2432mm 2 100 ""]
+Element["hidename" "0402" "J9" "0" 1201.00mil 306.00mil 2.8248mm 1.2432mm 2 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-0.0JCT-ND")
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "smt1206.ele" "J8" "unknown" 1211.00mil 540.00mil 0.0000 0.0000 3 100 ""]
+Element["hidename" "smt1206.ele" "J8" "0" 1211.00mil 540.00mil 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "RMCF1206ZT0R00CT-ND")
 	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
 	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
@@ -882,8 +882,8 @@ Element["hidename" "0603" "L1" "2.2uH" 1202.00mil 361.00mil 1.1094mm 2.5253mm 2 
 	Attribute("device" "INDUCTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "535-12251-1-ND")
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
 
@@ -894,20 +894,20 @@ Element["hidename" "smt0603.ele" "C10" "2.2uF" 1166.00mil 487.00mil 0.0000 0.000
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "445-12444-1-ND")
 	Pad[0.0000 0.0000 1.00mil 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square"]
 	Pad[60.00mil 0.0000 61.00mil 0.0000 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
 
 	)
 
-Element["hidename" "DSON6" "U3" "unknown" 1196.00mil 417.00mil 0.0000 0.0000 2 100 ""]
+Element["hidename" "DSON6" "U3" "ic" 1196.00mil 417.00mil 0.0000 0.0000 2 100 ""]
 (
-	Attribute("device" "unknown")
+	Attribute("device" "TPS62730")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "296-28820-1-ND")
 	Pad[0.5350mm -0.5000mm 0.7250mm -0.5000mm 0.3000mm 0.3000mm 0.3000mm "STAT" "1" "square,edge2"]
 	Pad[0.5350mm 0.0000 0.7250mm 0.0000 0.3000mm 0.3000mm 0.3000mm "SW" "2" "square,edge2"]
 	Pad[0.5350mm 0.5000mm 0.7250mm 0.5000mm 0.3000mm 0.3000mm 0.3000mm "VIN" "3" "square,edge2"]
@@ -917,13 +917,13 @@ Element["hidename" "DSON6" "U3" "unknown" 1196.00mil 417.00mil 0.0000 0.0000 2 1
 
 	)
 
-Element["hidename" "smt1206.ele" "J2" "unknown" 1150.00mil 665.00mil 0.0000 0.0000 3 100 ""]
+Element["hidename" "smt1206.ele" "J2" "0" 1150.00mil 665.00mil 0.0000 0.0000 3 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "RMCF1206ZT0R00CT-ND")
 	Pad[0.0000 0.0000 0.0000 1.00mil 60.00mil 30.00mil 66.00mil "1" "1" "square"]
 	Pad[0.0000 120.00mil 0.0000 121.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
@@ -934,8 +934,8 @@ Element["hidename" "smt0603.ele" "C11" "2.2uF" 1135.00mil 447.00mil 0.0000 0.000
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "445-12444-1-ND")
 	Pad[0.0000 -1.00mil 0.0000 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square,edge2"]
 	Pad[0.0000 -61.00mil 0.0000 -60.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square"]
 
@@ -946,32 +946,32 @@ Element["hidename" "0402" "C4" "1uF" 913.00mil 343.00mil -8.72mil 32.76mil 0 100
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-1320-1-ND")
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "0402" "D1" "unknown" 906.00mil 489.00mil -18.82mil -0.6549mm 3 100 ""]
+Element["hidename" "0402" "D1" "red" 906.00mil 489.00mil -18.82mil -0.6549mm 3 100 ""]
 (
 	Attribute("device" "LED")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "754-1104-1-ND")
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "CATHODE" "1" "square"]
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "ANODE" "2" "square"]
 
 	)
 
-Element["hidename" "USB_MICRO_F" "CON1" "unknown" 1624.00mil 781.00mil 264.00mil -70.00mil 3 100 ""]
+Element["hidename" "USB_MICRO_F" "CON1" "mini_usb" 1624.00mil 781.00mil 264.00mil -70.00mil 3 100 ""]
 (
 	Attribute("device" "CONNECTOR_5")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "609-4613-1-ND")
 	Pad[-51.00mil -124.00mil -51.00mil -87.00mil 16.00mil 16.00mil 16.00mil "1" "1" "square"]
 	Pad[-26.00mil -124.00mil -26.00mil -87.00mil 16.00mil 16.00mil 16.00mil "2" "2" "square"]
 	Pad[0.0000 -124.00mil 0.0000 -87.00mil 16.00mil 16.00mil 16.00mil "3" "3" "square"]
@@ -991,8 +991,8 @@ Element["hidename" "0402" "C3" "1nF" 1746.00mil 522.00mil -1.4394mm -1.9101mm 0 
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-1303-1-ND")
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -1003,8 +1003,8 @@ Element["hidename" "0402" "C7" "1uF" 1599.00mil 455.00mil 108.42mil -0.2636mm 3 
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-1320-1-ND")
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -1015,8 +1015,8 @@ Element["hidename" "0402" "C9" "1uF" 1666.00mil 509.00mil 1.5820mm 97.10mil 2 10
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-1320-1-ND")
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -1027,20 +1027,20 @@ Element["hidename" "smt0603.ele" "R1" "2.7k" 1762.00mil 579.00mil 0.0000 0.0000 
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "RHM2.7KCFCT-ND")
 	Pad[-1.00mil 0.0000 0.0000 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square,edge2"]
 	Pad[-61.00mil 0.0000 -60.00mil 0.0000 30.00mil 30.00mil 36.00mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "SOT25" "U2" "unknown" 1763.00mil 381.00mil 25.00mil -1.00mil 1 100 ""]
+Element["hidename" "SOT25" "U2" "ic" 1763.00mil 381.00mil 25.00mil -1.00mil 1 100 ""]
 (
-	Attribute("device" "TPS2782")
+	Attribute("device" "TPS78227")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "296-23825-1-ND")
 	Pad[0.0000 -8.00mil 0.0000 8.00mil 24.00mil 30.00mil 30.00mil "GND" "1" "square"]
 	Pad[-78.00mil -8.00mil -78.00mil 8.00mil 24.00mil 30.00mil 30.00mil "OUT" "2" "square"]
 	Pad[-78.00mil 74.00mil -78.00mil 90.00mil 24.00mil 30.00mil 30.00mil "IN" "3" "square,edge2"]
@@ -1053,85 +1053,85 @@ Element["hidename" "SOT25" "U2" "unknown" 1763.00mil 381.00mil 25.00mil -1.00mil
 
 	)
 
-Element["hidename" "0402" "R4" "10M" 1666.00mil 541.00mil -1.8283mm 0.7811mm 3 100 ""]
+Element["hidename" "0402" "R4" "10k" 1666.00mil 541.00mil -1.8283mm 0.7811mm 3 100 ""]
 (
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-10KJCT-ND")
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "smt1206.ele" "J1" "unknown" 1542.00mil 601.00mil 0.0000 0.0000 1 100 ""]
+Element["hidename" "smt1206.ele" "J1" "0" 1542.00mil 601.00mil 0.0000 0.0000 1 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "RMCF1206ZT0R00CT-ND")
 	Pad[0.0000 -1.00mil 0.0000 0.0000 60.00mil 30.00mil 66.00mil "1" "1" "square,edge2"]
 	Pad[0.0000 -121.00mil 0.0000 -120.00mil 60.00mil 30.00mil 66.00mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "smt0603.ele" "J3" "unknown" 1456.00mil 479.00mil 1.4612mm -2.0423mm 1 100 ""]
+Element["hidename" "smt0603.ele" "J3" "0" 1456.00mil 479.00mil 1.4612mm -2.0423mm 1 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-0.0GCT-ND")
 	Pad[0.0000 -1.00mil 0.0000 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square,edge2"]
 	Pad[0.0000 -61.00mil 0.0000 -60.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "smt0603.ele" "J4" "unknown" 1629.00mil 275.00mil 1.3484mm 0.0535mm 1 100 ""]
+Element["hidename" "smt0603.ele" "J4" "0" 1629.00mil 275.00mil 1.3484mm 0.0535mm 1 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-0.0GCT-ND")
 	Pad[0.0000 -1.00mil 0.0000 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square,edge2"]
 	Pad[0.0000 -61.00mil 0.0000 -60.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "0402" "J7" "unknown" 1466.00mil 328.00mil -31.50mil -31.50mil 0 100 ""]
+Element["hidename" "0402" "J7" "0" 1466.00mil 328.00mil -31.50mil -31.50mil 0 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-0.0JCT-ND")
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "0402" "J6" "unknown" 1466.00mil 364.00mil -0.7426mm -1.6271mm 0 100 ""]
+Element["hidename" "0402" "J6" "0" 1466.00mil 364.00mil -0.7426mm -1.6271mm 0 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-0.0JCT-ND")
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "SOD323" "D2" "unknown" 1576.00mil 380.00mil 93.00mil 0.0000 3 100 ""]
+Element["hidename" "SOD323" "D2" "diode" 1576.00mil 380.00mil 93.00mil 0.0000 3 100 ""]
 (
 	Attribute("device" "DIODE")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "mouser")
+	Attribute("vendor_part_number" "863-NSVRB751V40T1G")
 	Pad[-37.00mil -10.00mil -37.00mil 10.00mil 51.00mil 20.00mil 57.00mil "1" "1" "square"]
 	Pad[37.00mil -10.00mil 37.00mil 10.00mil 51.00mil 20.00mil 57.00mil "2" "2" "square"]
 	ElementLine [-83.00mil -35.00mil -83.00mil 35.00mil 20.00mil]
@@ -1148,20 +1148,20 @@ Element["hidename" "smt0603.ele" "R2" "1k" 2080.00mil 661.00mil 0.2787mm -3.7923
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "P1.0KGCT-ND")
 	Pad[0.0000 0.0000 1.00mil 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square"]
 	Pad[60.00mil 0.0000 61.00mil 0.0000 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
 
 	)
 
-Element["hidename" "SOT23" "Q1" "unknown" 56.4703mm 16.4335mm -89.00mil -126.00mil 0 100 ""]
+Element["hidename" "SOT23" "Q1" "NPN" 56.4703mm 16.4335mm -89.00mil -126.00mil 0 100 ""]
 (
 	Attribute("device" "NPN_TRANSISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "568-1738-1-ND")
 	Pad[0.0000 -3.00mil 0.0000 3.00mil 34.00mil 30.00mil 40.00mil "1" "1" "square,edge2"]
 	Pad[78.00mil -3.00mil 78.00mil 3.00mil 34.00mil 30.00mil 40.00mil "2" "2" "square,edge2"]
 	Pad[39.00mil -85.00mil 39.00mil -79.00mil 34.00mil 30.00mil 40.00mil "3" "3" "square"]
@@ -1172,25 +1172,25 @@ Element["hidename" "SOT23" "Q1" "unknown" 56.4703mm 16.4335mm -89.00mil -126.00m
 
 	)
 
-Element["hidename" "smt1206.ele" "J5" "unknown" 2036.00mil 596.00mil 0.0000 0.0000 0 100 ""]
+Element["hidename" "smt1206.ele" "J5" "0" 2036.00mil 596.00mil 0.0000 0.0000 0 100 ""]
 (
 	Attribute("device" "JUMPER")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "RMCF1206ZT0R00CT-ND")
 	Pad[0.0000 0.0000 1.00mil 0.0000 60.00mil 30.00mil 66.00mil "1" "1" "square"]
 	Pad[120.00mil 0.0000 121.00mil 0.0000 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
 	)
 
-Element["hidename" "ST025BT" "BUZ1" "unknown" 54.9474mm 9.4986mm -3.9140mm 290.00mil 1 100 ""]
+Element["hidename" "ST025BT" "BUZ1" "buzzer" 54.9474mm 9.4986mm -3.9140mm 290.00mil 1 100 ""]
 (
-	Attribute("device" "unknown")
+	Attribute("device" "ST-025BT")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "433-1084-1-ND")
 	Pad[3.1000mm 3.1000mm 3.1000mm 3.1000mm 1.7000mm 1.7000mm 1.7000mm "2" "2" "square,edge2"]
 	Pad[-3.1000mm -3.1000mm -3.1000mm -3.1000mm 1.7000mm 1.7000mm 1.7000mm "" "4" "square"]
 	Pad[-3.1000mm 3.1000mm -3.1000mm 3.1000mm 1.7000mm 1.7000mm 1.7000mm "1" "1" "square"]
@@ -1198,13 +1198,13 @@ Element["hidename" "ST025BT" "BUZ1" "unknown" 54.9474mm 9.4986mm -3.9140mm 290.0
 
 	)
 
-Element["hidename" "1206" "PWR" "unknown" 2957.00mil 508.00mil -3.4705mm 7.4340mm 3 100 ""]
+Element["hidename" "1206" "PWR" "none" 2957.00mil 508.00mil -3.4705mm 7.4340mm 3 100 ""]
 (
-	Attribute("device" "CONNECTOR_2")
+	Attribute("device" "SM02B-SRSS-TB")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "none")
+	Attribute("vendor_part_number" "none")
 	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
 	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
@@ -1217,8 +1217,8 @@ Element["hidename" "0402" "C34" "100nF" 2620.00mil 356.00mil -1.7561mm 1.1346mm 
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "587-1227-1-ND")
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -1229,8 +1229,8 @@ Element["hidename" "0402" "R35" "1M" 65.4827mm 17.4616mm 66.00mil -38.00mil 3 10
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-1.0MJCT-ND")
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -1241,8 +1241,8 @@ Element["hidename" "0402" "R32" "1k" 2641.60mil 16.0621mm 54.00mil 77.00mil 2 10
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "RMCF0402JT1K00CT-ND")
 	Pad[15.74mil -3.93mil 15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-15.74mil -3.93mil -15.74mil 3.93mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -1253,8 +1253,8 @@ Element["hidename" "0805" "C33" "10uF" 2773.60mil 17.8147mm -0.8905mm -94.48mil 
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-3340-1-ND")
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
@@ -1267,8 +1267,8 @@ Element["hidename" "0805" "C31" "4.7uF" 2774.00mil 771.00mil -45.00mil -100.00mi
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "311-1371-1-ND")
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
@@ -1281,20 +1281,20 @@ Element["hidename" "0402" "C32" "1uF" 2856.00mil 548.00mil -2.1365mm 1.5102mm 1 
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-1320-1-ND")
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "TSSOP8" "U30" "unknown" 2697.00mil 520.00mil 0.1190mm -3.2561mm 0 100 ""]
+Element["hidename" "TSSOP8" "U30" "ic" 2697.00mil 520.00mil 0.1190mm -3.2561mm 0 100 ""]
 (
 	Attribute("device" "SPV1040")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "497-11288-1-ND")
 	Pad[-111.61mil -38.38mil -65.55mil -38.38mil 12.99mil 10.00mil 22.99mil "MPP-SET" "1" "square"]
 	Pad[-111.61mil -12.79mil -65.55mil -12.79mil 12.99mil 10.00mil 22.99mil "GND" "2" "square"]
 	Pad[-111.61mil 12.79mil -65.55mil 12.79mil 12.99mil 10.00mil 22.99mil "Lx" "3" "square"]
@@ -1317,8 +1317,8 @@ Element["hidename" "0402" "R31" "1k" 2854.00mil 485.00mil 30.00mil 1.7273mm 1 10
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "RMCF0402JT1K00CT-ND")
 	Pad[-3.93mil 15.74mil 3.93mil 15.74mil 19.68mil 20.00mil 25.68mil "1" "1" "square"]
 	Pad[-3.93mil -15.74mil 3.93mil -15.74mil 19.68mil 20.00mil 25.68mil "2" "2" "square"]
 
@@ -1329,8 +1329,8 @@ Element["hidename" "smt0603.ele" "R33" "1k" 69.5467mm 15.0994mm 0.0000 0.0000 3 
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "P1.0KGCT-ND")
 	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
 	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
 
@@ -1341,8 +1341,8 @@ Element["hidename" "smt0603.ele" "C35" "1nF" 65.6097mm 15.7598mm 0.0000 0.0000 2
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "490-6379-1-ND")
 	Pad[-1.00mil 0.0000 0.0000 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square,edge2"]
 	Pad[-61.00mil 0.0000 -60.00mil 0.0000 30.00mil 30.00mil 36.00mil "2" "2" "square"]
 
@@ -1353,8 +1353,8 @@ Element["hidename" "smt0603.ele" "R34" "0.01" 66.9559mm 17.7664mm 0.0000 0.0000 
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "1276-6152-1-ND")
 	Pad[0.0000 0.0000 1.00mil 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square"]
 	Pad[60.00mil 0.0000 61.00mil 0.0000 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
 
@@ -1365,8 +1365,8 @@ Element["hidename" "0805W" "L30" "10uH" 2708.00mil 427.00mil 0.0000 0.0000 0 100
 	Attribute("device" "INDUCTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "445-3170-1-ND")
 	Pad[-1.1000mm 0.0000 -1.1000mm 0.0000 1.2000mm 1.2000mm 1.2000mm "1" "1" "square"]
 	Pad[1.1000mm 0.0000 1.1000mm 0.0000 1.2000mm 1.2000mm 1.2000mm "2" "2" "square,edge2"]
 
@@ -1377,20 +1377,20 @@ Element["hidename" "smt0603.ele" "R36" "866k" 72.4169mm 15.7344mm 0.0000 0.0000 
 	Attribute("device" "RESISTOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "541-866KHCT-ND")
 	Pad[-1.00mil 0.0000 0.0000 0.0000 30.00mil 30.00mil 36.00mil "1" "1" "square,edge2"]
 	Pad[-61.00mil 0.0000 -60.00mil 0.0000 30.00mil 30.00mil 36.00mil "2" "2" "square"]
 
 	)
 
-Element["hidename" "SM02B" "S1" "unknown" 2679.00mil 294.00mil -90.00mil -77.00mil 1 100 ""]
+Element["hidename" "SM02B" "S1" "SM02B" 2679.00mil 294.00mil -90.00mil -77.00mil 1 100 ""]
 (
-	Attribute("device" "BATTERY")
+	Attribute("device" "SM02B")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "455-1802-1-ND")
 	Pad[-0.5000mm 0.5000mm 0.5000mm 0.5000mm 0.6000mm 0.6000mm 0.6000mm "+" "1" "square"]
 	Pad[-0.5000mm -0.5000mm 0.5000mm -0.5000mm 0.6000mm 0.6000mm 0.6000mm "-" "2" "square"]
 	Pad[3.6000mm 1.8000mm 4.2000mm 1.8000mm 1.2000mm 1.2000mm 1.2000mm "" "" "square,edge2"]
@@ -1403,8 +1403,8 @@ Element["hidename" "0805" "C30" "1uF" 2576.00mil 282.00mil -44.00mil -91.00mil 0
 	Attribute("device" "CAPACITOR")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "311-1358-1-ND")
 	Pad[-35.43mil -3.93mil -35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
 	Pad[35.43mil -3.93mil 35.43mil 3.93mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
 	ElementLine [-3.93mil -27.55mil 3.93mil -27.55mil 8.00mil]
@@ -1417,8 +1417,8 @@ Element["hidename" "SOD323" "Z1" "2.8v" 2546.00mil 382.00mil 0.0000 93.00mil 2 1
 	Attribute("device" "ZENER_DIODE")
 	Attribute("manufacturer" "unknown")
 	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
+	Attribute("vendor" "digikey")
+	Attribute("vendor_part_number" "DDZ2V7BSF-7DICT-ND")
 	Pad[-10.00mil -37.00mil 10.00mil -37.00mil 51.00mil 20.00mil 57.00mil "1" "1" "square"]
 	Pad[-10.00mil 37.00mil 10.00mil 37.00mil 51.00mil 20.00mil 57.00mil "2" "2" "square"]
 	ElementLine [-35.00mil -83.00mil 35.00mil -83.00mil 20.00mil]

@@ -371,9 +371,11 @@ refdes=U1
 T 41800 47400 5 10 0 0 0 0 1
 vendor=mouser
 T 41800 47400 5 10 0 0 0 0 1
-partno=603-BLE112-A
+vendor_part_number=603-BLE112-A
 T 44300 50200 5 10 0 1 0 0 1
 value=ic
+T 41800 47400 5 10 0 0 0 0 1
+scad=BLE112
 }
 C 36400 51600 1 0 0 gnd-1.sym
 C 35800 53800 1 0 0 vcc-1.sym
@@ -390,7 +392,7 @@ vendor=digikey
 T 45300 54800 5 10 0 0 0 0 1
 value=mini_usb
 T 45300 54800 5 10 0 0 0 0 1
-partno=609-4613-1-ND
+vendor_part_number=609-4613-1-ND
 }
 C 48100 54900 1 0 0 buzzer.sym
 {
@@ -401,7 +403,7 @@ footprint=ST025BT
 T 48100 54900 5 10 0 0 0 0 1
 vendor=digikey
 T 48100 54900 5 10 0 0 0 0 1
-partno=433-1084-1-ND
+vendor_part_number=433-1084-1-ND
 T 48100 54900 5 10 0 0 0 0 1
 device=ST-025BT
 T 49400 54600 5 10 0 1 0 0 1
@@ -492,7 +494,7 @@ footprint=0402
 T 47300 50100 5 10 0 0 0 0 1
 vendor=digikey
 T 47300 50100 5 10 0 0 0 0 1
-partno=490-1303-1-ND
+vendor_part_number=490-1303-1-ND
 }
 C 47300 51100 1 0 0 resistor-1.sym
 {
@@ -507,7 +509,7 @@ footprint=smt0603.ele
 T 47300 51100 5 10 0 0 0 0 1
 vendor=digikey
 T 47300 51100 5 10 0 0 0 0 1
-partno=RHM2.7KCFCT-ND
+vendor_part_number=RHM2.7KCFCT-ND
 }
 N 47100 51000 47100 51200 4
 N 46600 51200 47300 51200 4
@@ -526,7 +528,7 @@ value=red
 T 44600 46300 5 10 0 0 0 0 1
 vendor=digikey
 T 44600 46300 5 10 0 0 0 0 1
-partno=754-1104-1-ND
+vendor_part_number=754-1104-1-ND
 }
 C 45500 46900 1 0 0 gnd-1.sym
 N 45600 47200 45600 47400 4
@@ -551,7 +553,7 @@ footprint=0402
 T 40600 51400 5 10 0 0 0 0 1
 vendor=digikey
 T 40600 51400 5 10 0 0 0 0 1
-partno=490-1320-1-ND
+vendor_part_number=490-1320-1-ND
 }
 N 40400 52300 40400 52900 4
 N 40400 52800 41800 52800 4
@@ -574,7 +576,7 @@ footprint=0402
 T 45400 45600 5 10 0 0 0 0 1
 vendor=digikey
 T 45400 45600 5 10 0 0 0 0 1
-partno=490-1320-1-ND
+vendor_part_number=490-1320-1-ND
 }
 C 45100 45200 1 0 0 gnd-1.sym
 N 45200 45500 45200 45600 4
@@ -603,7 +605,7 @@ footprint=0402
 T 40900 48900 5 10 0 0 0 0 1
 vendor=digikey
 T 40900 48900 5 10 0 0 0 0 1
-partno=490-1320-1-ND
+vendor_part_number=490-1320-1-ND
 }
 C 40600 48400 1 0 0 gnd-1.sym
 N 40700 48700 40700 48900 4
@@ -646,7 +648,7 @@ footprint=smt0603.ele
 T 46500 54200 5 10 0 0 0 0 1
 vendor=digikey
 T 46500 54200 5 10 0 0 0 0 1
-partno=P1.0KGCT-ND
+vendor_part_number=P1.0KGCT-ND
 }
 N 47400 54300 47600 54300 4
 N 39100 56800 39100 57000 4
@@ -668,7 +670,7 @@ footprint=0402
 T 40900 55700 5 10 0 0 0 0 1
 vendor=digikey
 T 40900 55700 5 10 0 0 0 0 1
-partno=490-1320-1-ND
+vendor_part_number=490-1320-1-ND
 }
 C 41000 55500 1 0 0 gnd-1.sym
 C 40600 55200 1 0 0 gnd-1.sym
@@ -688,7 +690,7 @@ footprint=0402
 T 43900 54900 5 10 0 0 0 0 1
 vendor=digikey
 T 43900 54900 5 10 0 0 0 0 1
-partno=541-10KJCT-ND
+vendor_part_number=541-10KJCT-ND
 }
 N 43800 54700 43800 54900 4
 C 43700 54400 1 0 0 gnd-1.sym
@@ -713,7 +715,7 @@ footprint=0402
 T 44400 57900 5 10 0 0 0 0 1
 vendor=digikey
 T 44400 57900 5 10 0 0 0 0 1
-partno=490-1320-1-ND
+vendor_part_number=490-1320-1-ND
 }
 C 44900 57600 1 90 0 gnd-1.sym
 N 44600 57700 44400 57700 4
@@ -730,7 +732,7 @@ footprint=SOT23
 T 47600 53800 5 10 0 0 0 0 1
 value=NPN
 T 47600 53800 5 10 0 0 0 0 1
-partno=568-1738-1-ND
+vendor_part_number=568-1738-1-ND
 T 47600 53800 5 10 0 0 0 0 1
 vendor=digikey
 }
@@ -749,7 +751,7 @@ refdes=U2
 T 41700 57100 5 10 1 1 0 0 1
 footprint=SOT25
 T 43000 55600 5 10 0 0 0 0 1
-partno=296-23825-1-ND
+vendor_part_number=296-23825-1-ND
 T 43000 55600 5 10 0 0 0 0 1
 vendor=digikey
 T 43000 55600 5 10 0 0 0 0 1
@@ -768,9 +770,11 @@ footprint=smt1206.ele
 T 45000 56700 5 10 0 0 0 0 1
 value=0
 T 45000 56700 5 10 0 0 0 0 1
-partno=RMCF1206ZT0R00CT-ND
+vendor_part_number=RMCF1206ZT0R00CT-ND
 T 45000 56700 5 10 0 0 0 0 1
 vendor=digikey
+T 44700 56800 5 10 0 1 0 0 1
+scad=1206_55
 }
 N 43000 56800 44000 56800 4
 N 45000 56800 45300 56800 4
@@ -785,9 +789,11 @@ footprint=smt1206.ele
 T 40500 53900 5 10 0 0 0 0 1
 vendor=digikey
 T 40500 53900 5 10 0 0 0 0 1
-partno=RMCF1206ZT0R00CT-ND
+vendor_part_number=RMCF1206ZT0R00CT-ND
 T 40500 53900 5 10 0 0 0 0 1
 value=0
+T 40400 53400 5 10 0 1 0 0 1
+scad=1206_55
 }
 C 43700 47200 1 180 0 jumper-1.sym
 {
@@ -802,7 +808,7 @@ value=0
 T 43700 47200 5 10 0 0 0 0 1
 vendor=digikey
 T 43700 47200 5 10 0 0 0 0 1
-partno=541-0.0GCT-ND
+vendor_part_number=541-0.0GCT-ND
 }
 N 43600 47200 43600 47400 4
 N 36300 57400 36300 57600 4
@@ -836,7 +842,7 @@ vendor=digikey
 T 36100 53600 5 10 0 0 0 0 1
 value=0
 T 36100 53600 5 10 0 0 0 0 1
-partno=541-0.0GCT-ND
+vendor_part_number=541-0.0GCT-ND
 }
 N 36000 52600 36000 52500 4
 N 36000 53600 36000 53800 4
@@ -853,7 +859,9 @@ value=0
 T 36400 57400 5 10 0 0 0 0 1
 vendor=digikey
 T 36400 57400 5 10 0 0 0 0 1
-partno=RMCF1206ZT0R00CT-ND
+vendor_part_number=RMCF1206ZT0R00CT-ND
+T 36700 56800 5 10 0 1 0 0 1
+scad=1206_55
 }
 N 36300 55100 36300 55200 4
 C 39200 58000 1 180 0 jumper-1.sym
@@ -869,7 +877,7 @@ value=0
 T 39200 58000 5 10 0 0 0 0 1
 vendor=digikey
 T 39200 58000 5 10 0 0 0 0 1
-partno=541-0.0JCT-ND
+vendor_part_number=541-0.0JCT-ND
 }
 N 39100 58000 39100 58200 4
 C 48000 56800 1 0 0 vcc-1.sym
@@ -886,7 +894,7 @@ value=0
 T 48300 56600 5 10 0 0 0 0 1
 vendor=digikey
 T 48300 56600 5 10 0 0 0 0 1
-partno=541-0.0JCT-ND
+vendor_part_number=541-0.0JCT-ND
 }
 N 48200 56600 48200 56800 4
 N 48200 55400 48200 55600 4
@@ -904,7 +912,7 @@ value=diode
 T 39300 56600 5 10 0 0 0 0 1
 vendor=mouser
 T 39300 56600 5 10 0 0 0 0 1
-partno=863-NSVRB751V40T1G 
+vendor_part_number=863-NSVRB751V40T1G 
 }
 N 40700 56600 40700 56800 4
 C 36100 55900 1 270 0 battery-1.sym
@@ -920,7 +928,7 @@ footprint=SM02B
 T 36100 55900 5 10 0 0 0 0 1
 value=SM02B
 T 36100 55900 5 10 0 0 0 0 1
-partno=455-1802-1-ND
+vendor_part_number=455-1802-1-ND
 T 36100 55900 5 10 0 0 0 0 1
 vendor=digikey
 }
@@ -988,7 +996,7 @@ refdes=U3
 T 37400 45900 5 10 1 1 0 2 1
 footprint=DSON6
 T 37000 45800 5 10 0 0 0 0 1
-partno=296-28820-1-ND
+vendor_part_number=296-28820-1-ND
 T 37000 45800 5 10 0 0 0 0 1
 vendor=digikey
 T 38300 47100 5 10 0 1 0 0 1
@@ -1009,7 +1017,7 @@ value=2.2uH
 T 39300 46900 5 10 0 0 0 0 1
 vendor=digikey
 T 39300 46900 5 10 0 0 0 0 1
-partno=535-12251-1-ND
+vendor_part_number=535-12251-1-ND
 }
 N 39300 47000 39100 47000 4
 N 40200 47000 40400 47000 4
@@ -1029,7 +1037,7 @@ footprint=smt0603.ele
 T 39900 45700 5 10 0 0 0 0 1
 vendor=digikey
 T 39900 45700 5 10 0 0 0 0 1
-partno=445-12444-1-ND
+vendor_part_number=445-12444-1-ND
 }
 C 39600 45300 1 0 0 gnd-1.sym
 N 39700 45600 39700 45700 4
@@ -1048,7 +1056,7 @@ footprint=smt0603.ele
 T 35800 45900 5 10 0 0 0 0 1
 vendor=digikey
 T 35800 45900 5 10 0 0 0 0 1
-partno=445-12444-1-ND
+vendor_part_number=445-12444-1-ND
 }
 C 35500 45500 1 0 0 gnd-1.sym
 N 35600 45800 35600 45900 4
@@ -1071,7 +1079,9 @@ value=0
 T 39700 50800 5 10 0 0 0 0 1
 vendor=digikey
 T 39700 50800 5 10 0 0 0 0 1
-partno=RMCF1206ZT0R00CT-ND
+vendor_part_number=RMCF1206ZT0R00CT-ND
+T 39600 50400 5 10 0 1 0 0 1
+scad=1206_55
 }
 N 40400 53900 40400 54100 4
 {
@@ -1106,7 +1116,7 @@ value=0
 T 37000 49200 5 10 0 0 0 0 1
 vendor=digikey
 T 37000 49200 5 10 0 0 0 0 1
-partno=541-0.0JCT-ND
+vendor_part_number=541-0.0JCT-ND
 }
 C 36700 49400 1 0 0 vcc-1.sym
 N 36900 49200 36900 49400 4
@@ -1131,7 +1141,7 @@ footprint=TSSOP8
 T 36400 41000 5 10 0 0 0 0 1
 vendor=digikey
 T 36400 41000 5 10 0 0 0 0 1
-partno=497-11288-1-ND
+vendor_part_number=497-11288-1-ND
 T 37400 41400 5 10 1 1 0 0 1
 value=ic
 }
@@ -1150,7 +1160,7 @@ value=10uH
 T 34100 42500 5 10 0 0 0 0 1
 vendor=digikey
 T 34100 42500 5 10 0 0 0 0 1
-partno=445-3170-1-ND
+vendor_part_number=445-3170-1-ND
 }
 N 35000 42600 36400 42600 4
 C 35900 41900 1 270 0 gnd-1.sym
@@ -1183,7 +1193,7 @@ footprint=smt0603.ele
 T 41500 42500 5 10 0 0 0 0 1
 vendor=digikey
 T 41500 42500 5 10 0 0 0 0 1
-partno=1276-6152-1-ND
+vendor_part_number=1276-6152-1-ND
 }
 C 40200 42100 1 0 0 resistor-1.sym
 {
@@ -1198,7 +1208,7 @@ footprint=0402
 T 40200 42100 5 10 0 0 0 0 1
 vendor=digikey
 T 40200 42100 5 10 0 0 0 0 1
-partno=RMCF0402JT1K00CT-ND
+vendor_part_number=RMCF0402JT1K00CT-ND
 }
 C 40400 40800 1 0 0 resistor-1.sym
 {
@@ -1213,7 +1223,7 @@ footprint=smt0603.ele
 T 40400 40800 5 10 0 0 0 0 1
 vendor=digikey
 T 40400 40800 5 10 0 0 0 0 1
-partno=P1.0KGCT-ND
+vendor_part_number=P1.0KGCT-ND
 }
 C 40200 41100 1 90 0 capacitor-1.sym
 {
@@ -1230,7 +1240,7 @@ footprint=0402
 T 40200 41100 5 10 0 0 0 0 1
 vendor=digikey
 T 40200 41100 5 10 0 0 0 0 1
-partno=490-1320-1-ND
+vendor_part_number=490-1320-1-ND
 }
 N 39400 40900 40400 40900 4
 N 40000 40900 40000 41100 4
@@ -1257,7 +1267,7 @@ footprint=0402
 T 43600 41500 5 10 0 0 0 0 1
 vendor=digikey
 T 43600 41500 5 10 0 0 0 0 1
-partno=541-1.0MJCT-ND
+vendor_part_number=541-1.0MJCT-ND
 }
 C 43600 40300 1 90 0 resistor-1.sym
 {
@@ -1270,7 +1280,7 @@ value=866k
 T 43300 40600 5 10 1 1 0 6 1
 footprint=smt0603.ele
 T 43600 40300 5 10 0 0 0 0 1
-partno=541-866KHCT-ND
+vendor_part_number=541-866KHCT-ND
 T 43600 40300 5 10 0 0 0 0 1
 vendor=digikey
 }
@@ -1297,7 +1307,7 @@ footprint=0805
 T 34100 41500 5 10 0 0 0 0 1
 vendor=digikey
 T 34100 41500 5 10 0 0 0 0 1
-partno=311-1358-1-ND
+vendor_part_number=311-1358-1-ND
 }
 C 39200 42800 1 0 0 capacitor-1.sym
 {
@@ -1314,7 +1324,7 @@ value=4.7uF
 T 39200 42800 5 10 0 0 0 0 1
 vendor=digikey
 T 39200 42800 5 10 0 0 0 0 1
-partno=311-1371-1-ND
+vendor_part_number=311-1371-1-ND
 }
 C 40600 42900 1 90 0 gnd-1.sym
 N 40300 43000 40100 43000 4
@@ -1339,7 +1349,7 @@ footprint=0402
 T 35300 41500 5 10 0 0 0 0 1
 vendor=digikey
 T 35300 41500 5 10 0 0 0 0 1
-partno=RMCF0402JT1K00CT-ND
+vendor_part_number=RMCF0402JT1K00CT-ND
 }
 N 35200 42400 35200 42600 4
 N 36400 42200 35600 42200 4
@@ -1378,7 +1388,7 @@ footprint=0805
 T 43800 42400 5 10 0 0 0 0 1
 vendor=digikey
 T 43800 42400 5 10 0 0 0 0 1
-partno=490-3340-1-ND
+vendor_part_number=490-3340-1-ND
 }
 N 43500 42400 43500 42600 4
 C 43900 41000 1 0 0 gnd-1.sym
@@ -1398,7 +1408,7 @@ footprint=0402
 T 35000 41200 5 10 0 0 0 0 1
 vendor=digikey
 T 35000 41200 5 10 0 0 0 0 1
-partno=587-1227-1-ND
+vendor_part_number=587-1227-1-ND
 }
 C 38700 40500 1 270 0 capacitor-1.sym
 {
@@ -1415,7 +1425,7 @@ footprint=smt0603.ele
 T 38700 40500 5 10 0 0 0 0 1
 vendor=digikey
 T 38700 40500 5 10 0 0 0 0 1
-partno=490-6379-1-ND
+vendor_part_number=490-6379-1-ND
 }
 C 38800 39100 1 0 0 gnd-1.sym
 N 38900 39400 38900 39600 4
@@ -1430,7 +1440,7 @@ device=SM02B-SRSS-TB
 T 37000 51650 5 10 1 1 0 2 1
 footprint=1206
 T 36700 51700 5 10 0 0 0 0 1
-partno=none
+vendor_part_number=none
 T 36700 51700 5 10 0 0 0 0 1
 vendor=none
 T 36700 51700 5 10 0 0 0 0 1
@@ -1450,7 +1460,7 @@ footprint=SOD323
 T 42400 43700 5 10 0 0 0 0 1
 vendor=digikey
 T 42400 43700 5 10 0 0 0 0 1
-partno=DDZ2V7BSF-7DICT-ND
+vendor_part_number=DDZ2V7BSF-7DICT-ND
 }
 N 41000 42600 41000 43500 4
 C 42900 43400 1 90 0 gnd-1.sym
