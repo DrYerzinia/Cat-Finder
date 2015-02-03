@@ -790,8 +790,11 @@ Attribute("PCB::grid::unit" "mil")
 Attribute("PCB::grid::size" "6.00mil")
 
 Element["hidename" "BLE112A_small" "U1" "ic" 499.00mil 485.00mil 0.0000 0.0000 1 100 ""]
+(
 	Attribute("vendor" "mouser")
 	Attribute("vendor_part_number" "603-BLE112-A")
+	)
+
 Element["hidename" "0402" "C6" "1uF" 571.00mil 754.00mil -34.71mil 0.7499mm 2 100 ""]
 (
 	Attribute("device" "CAPACITOR")
