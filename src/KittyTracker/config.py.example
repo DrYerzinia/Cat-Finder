@@ -1,0 +1,17 @@
+from netaddr import *
+from datetime import datetime
+
+import Kitty
+
+mailServerURL = 'url:587' # uses TLS, for gmail: 'smtp.gmail.com:587'
+email = 'youremail'
+password = 'youremailpassword'
+to_addr = [
+	'first.email@to.send.to',
+	'second.email@to.send.to',
+]
+kittys = [
+	Kitty('Kitty1', EUI('00-00-00-00-00-00'), datetime.now()),
+	Kitty('Kitty2', EUI('00-00-00-00-00-01'), datetime.now())
+]
+
