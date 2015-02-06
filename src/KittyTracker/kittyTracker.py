@@ -47,7 +47,7 @@ def main():
 					k.lastHeard = datetime.now()
 					print 'Heard ' , k.name , ' at ' + str(rssi) + 'dBm!'
 					if k.ttw != 180:
-						sendMail(k.name + ' reacquired')
+						SendMail.sendMail(k.name + ' reacquired')
 						k.ttw = 180
 					found = True
 			if not found:
