@@ -1231,32 +1231,6 @@ Element["hidename" "SOD323" "Z1" "2.8v" 2234.00mil 382.00mil 0.0000 93.00mil 2 1
 
 	)
 
-Element["hidename" "MAL219691252E3" "C44" "15F" 85.5957mm 13.1884mm -564.00mil 97.00mil 0 100 ""]
-(
-	Attribute("device" "POLARIZED_CAPACITOR")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[13.7500mm 0.0000 14.2500mm 0.0000 3.0000mm 3.0000mm 3.0000mm "+" "1" "square,edge2"]
-	Pad[-14.2500mm 0.0000 -13.7500mm 0.0000 3.0000mm 3.0000mm 3.0000mm "-" "2" "square"]
-
-	)
-
-Element["hidename" "1206" "CAP" "unknown" 102.8324mm 13.0977mm 1.9551mm 4.0503mm 3 100 ""]
-(
-	Attribute("device" "CONNECTOR_2")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[-11.81mil -59.05mil 11.81mil -59.05mil 51.18mil 20.00mil 57.18mil "1" "1" "square"]
-	Pad[-11.81mil 59.05mil 11.81mil 59.05mil 51.18mil 20.00mil 57.18mil "2" "2" "square"]
-	ElementLine [37.40mil -23.62mil 37.40mil 23.62mil 8.00mil]
-	ElementLine [-37.40mil -23.62mil -37.40mil 23.62mil 8.00mil]
-
-	)
-
 Element["hidename" "1206" "B40" "unknown" 3019.00mil 519.00mil 3.7217mm -8.95mil 3 100 ""]
 (
 	Attribute("device" "BATTERY")
@@ -1474,18 +1448,6 @@ Element["hidename" "0402" "R41" "1M" 2894.00mil 313.00mil -31.50mil 31.50mil 1 1
 
 	)
 
-Element["hidename" "smt0603.ele" "J40" "unknown" 2909.00mil 372.00mil -0.8808mm -0.8290mm 3 100 ""]
-(
-	Attribute("device" "JUMPER")
-	Attribute("manufacturer" "unknown")
-	Attribute("manufacturer_part_number" "unknown")
-	Attribute("vendor" "unknown")
-	Attribute("vendor_part_number" "unknown")
-	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
-	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
-
-	)
-
 Element["" "smt0603" "" "0603 Chip site" 2719.00mil 712.00mil 0.0000 0.0000 3 100 ""]
 (
 	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square,warn"]
@@ -1500,7 +1462,7 @@ Element["" "smt0603" "" "0603 Chip site" 2726.00mil 397.00mil 0.0000 0.0000 3 10
 
 	)
 
-Element["hidename" "DSON6" "U3" "ic" 1199.00mil 373.00mil 0.0000 0.0000 2 100 "selected"]
+Element["hidename" "DSON6" "U3" "ic" 1199.00mil 373.00mil 0.0000 0.0000 2 100 ""]
 (
 	Attribute("device" "TPS62730")
 	Attribute("manufacturer" "unknown")
@@ -1693,9 +1655,6 @@ Layer(1 "top")
 	Line[2799.00mil 667.00mil 2816.00mil 650.00mil 8.00mil 16.00mil ""]
 	Line[2816.00mil 650.00mil 2816.00mil 626.00mil 8.00mil 16.00mil ""]
 	Line[2816.00mil 626.00mil 2873.00mil 626.00mil 8.00mil 16.00mil ""]
-	Line[2818.00mil 626.00mil 2818.00mil 532.00mil 8.00mil 16.00mil ""]
-	Line[4052.00mil 452.00mil 4003.00mil 452.00mil 8.00mil 16.00mil ""]
-	Line[4003.00mil 452.00mil 3931.00mil 524.00mil 8.00mil 16.00mil ""]
 	Line[1822.00mil 660.00mil 1875.00mil 660.00mil 8.00mil 16.00mil ""]
 	Line[1875.00mil 660.00mil 1901.00mil 686.00mil 8.00mil 16.00mil ""]
 	Line[1901.00mil 686.00mil 1928.00mil 686.00mil 8.00mil 16.00mil ""]
@@ -1839,12 +1798,9 @@ Layer(1 "top")
 	Line[2812.00mil 348.00mil 2876.00mil 348.00mil 8.00mil 16.00mil ""]
 	Line[2876.00mil 348.00mil 2894.00mil 330.00mil 8.00mil 16.00mil ""]
 	Line[2880.00mil 344.00mil 2880.00mil 465.00mil 8.00mil 16.00mil ""]
-	Line[2925.00mil 812.00mil 2925.00mil 449.00mil 8.00mil 16.00mil ""]
-	Line[2925.00mil 449.00mil 2909.00mil 433.00mil 8.00mil 16.00mil ""]
 	Line[2854.00mil 297.00mil 2923.00mil 297.00mil 8.00mil 16.00mil ""]
 	Line[2923.00mil 297.00mil 2930.00mil 304.00mil 8.00mil 16.00mil ""]
 	Line[2930.00mil 304.00mil 2930.00mil 352.00mil 8.00mil 16.00mil ""]
-	Line[2930.00mil 352.00mil 2910.00mil 372.00mil 8.00mil 16.00mil ""]
 	Line[2880.00mil 402.00mil 2933.00mil 402.00mil 8.00mil 16.00mil ""]
 	Line[2933.00mil 402.00mil 2943.00mil 412.00mil 8.00mil 16.00mil ""]
 	Line[2943.00mil 412.00mil 2943.00mil 557.00mil 8.00mil 16.00mil ""]
@@ -1853,21 +1809,7 @@ Layer(1 "top")
 	Line[2930.00mil 352.00mil 2945.00mil 352.00mil 8.00mil 16.00mil ""]
 	Line[2945.00mil 352.00mil 3019.00mil 426.00mil 8.00mil 16.00mil ""]
 	Line[3019.00mil 426.00mil 3019.00mil 460.00mil 8.00mil 16.00mil ""]
-	Line[3018.00mil 583.00mil 3760.00mil 583.00mil 8.00mil 16.00mil ""]
-	Line[3760.00mil 583.00mil 3812.00mil 635.00mil 8.00mil 16.00mil ""]
-	Line[3812.00mil 635.00mil 3999.00mil 635.00mil 8.00mil 16.00mil ""]
-	Line[3999.00mil 635.00mil 4053.00mil 581.00mil 8.00mil 16.00mil ""]
 	Line[2927.00mil 230.00mil 2943.00mil 230.00mil 8.00mil 16.00mil ""]
-	Line[2944.00mil 262.00mil 2944.00mil 288.00mil 8.00mil 16.00mil ""]
-	Line[2944.00mil 288.00mil 2950.00mil 294.00mil 8.00mil 16.00mil ""]
-	Line[2950.00mil 294.00mil 2950.00mil 314.00mil 8.00mil 16.00mil ""]
-	Line[2950.00mil 314.00mil 3044.00mil 408.00mil 8.00mil 16.00mil ""]
-	Line[3044.00mil 408.00mil 3071.00mil 408.00mil 8.00mil 16.00mil ""]
-	Line[3071.00mil 408.00mil 3085.00mil 422.00mil 8.00mil 16.00mil ""]
-	Line[3085.00mil 422.00mil 3085.00mil 498.00mil 8.00mil 16.00mil ""]
-	Line[3085.00mil 498.00mil 3135.00mil 548.00mil 8.00mil 16.00mil ""]
-	Line[3135.00mil 548.00mil 3907.00mil 548.00mil 8.00mil 16.00mil ""]
-	Line[3907.00mil 548.00mil 3932.00mil 523.00mil 8.00mil 16.00mil ""]
 	Line[2694.00mil 288.00mil 2694.00mil 420.00mil 8.00mil 16.00mil ""]
 	Line[2694.00mil 420.00mil 2701.00mil 427.00mil 8.00mil 16.00mil ""]
 	Line[2701.00mil 427.00mil 2743.00mil 427.00mil 8.00mil 16.00mil ""]
@@ -1920,6 +1862,9 @@ Layer(1 "top")
 	Line[1135.00mil 330.00mil 1135.00mil 348.00mil 8.00mil 16.00mil ""]
 	Line[1135.00mil 348.00mil 1137.00mil 350.00mil 8.00mil 16.00mil ""]
 	Line[1183.00mil 353.00mil 1139.00mil 353.00mil 8.00mil 16.00mil ""]
+	Line[2925.00mil 812.00mil 2925.00mil 622.00mil 8.00mil 16.00mil ""]
+	Line[2818.00mil 626.00mil 2818.00mil 527.00mil 8.00mil 16.00mil ""]
+	Line[2818.00mil 527.00mil 2880.00mil 465.00mil 8.00mil 16.00mil ""]
 	Polygon("clearpoly")
 	(
 		[188.00mil 485.00mil] [188.00mil 702.00mil] [856.00mil 702.00mil] [856.00mil 271.00mil] [384.00mil 271.00mil] 
