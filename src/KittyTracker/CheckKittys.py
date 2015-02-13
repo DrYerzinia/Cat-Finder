@@ -15,5 +15,5 @@ class CheckKittys(Thread):
 					message = 'Alert: ' + k.name + ' NOT DETECTED for ' + str(diff) + ' SECONDS!'
 					SendMail.sendMail(message)
 					k.incrementTTW();
-			time.sleep(20)
+			time.sleep(30)
 

@@ -7,5 +7,5 @@ class Kitty():
 	def incrementTTW(self):
 		if self.ttw == 180:
 			self.ttw = 720
-		else:
+		#else:
 			self.ttw += 1800
