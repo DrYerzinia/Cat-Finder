@@ -77,23 +77,23 @@ N 33600 56500 33800 56500 4
 T 33300 56400 5 10 1 1 0 6 1
 netname=Reset
 }
-C 34700 55400 1 270 1 capacitor-1.sym
+C 35100 55400 1 90 0 capacitor-1.sym
 {
-T 35400 55600 5 10 0 0 90 2 1
+T 34400 55600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 35000 56000 5 10 1 1 0 0 1
 refdes=C3
-T 35600 55600 5 10 0 0 90 2 1
+T 34200 55600 5 10 0 0 90 0 1
 symversion=0.1
 T 34800 56000 5 10 1 1 0 6 1
 value=1nF
 T 34800 55700 5 10 1 1 0 8 1
 footprint=0402
-T 34700 55400 5 10 0 0 0 6 1
+T 35100 55400 5 10 0 0 0 0 1
 supplier=Digikey
-T 34700 55400 5 10 0 0 0 6 1
+T 35100 55400 5 10 0 0 0 0 1
 supplier-part-number=490-1303-1-ND
-T 34700 55400 5 10 0 0 0 0 1
+T 35100 55400 5 10 0 0 0 6 1
 part-number=GRM155R71H102KA01D
 }
 C 34700 56400 1 0 1 resistor-1.sym
@@ -301,7 +301,7 @@ Connector and Contacts:
 C 45500 45700 1 0 0 TPS2782.sym
 {
 T 45900 45700 5 10 1 1 0 0 1
-device=TPS72033DBVR
+device=TPS78330DDCR
 T 45800 47200 5 10 1 1 0 0 1
 refdes=U41
 T 46800 47200 5 10 1 1 0 6 1
@@ -309,9 +309,9 @@ footprint=SOT25
 T 45500 45700 5 10 0 0 0 0 1
 supplier=Digikey
 T 45500 45700 5 10 0 0 0 0 1
-supplier-part-number=296-17580-1-ND
+supplier-part-number=296-25880-1-ND
 T 45500 45700 5 10 0 0 0 0 1
-part-number=TPS73033DBVR
+part-number=TPS78330DDCR
 T 45500 45700 5 10 0 0 0 0 1
 value=3.3v
 }
@@ -908,9 +908,9 @@ footprint=0402
 T 38300 47900 5 10 0 0 0 0 1
 supplier=Digikey
 T 38300 47900 5 10 0 0 0 0 1
-part-number=GRM033R61A104ME15D
+part-number=CL05A104MP5NNNC
 T 38300 47900 5 10 0 0 0 0 1
-supplier-part-number=490-5405-1-ND
+supplier-part-number=1276-1443-1-ND
 }
 N 38100 47900 38100 47800 4
 N 38100 47800 39800 47800 4
