@@ -884,7 +884,7 @@ Element["hidename" "0402" "L1" "2.2uH" 792.00mil 235.00mil 33.00mil 74.00mil 2 1
 
 Element["" "smt0603" "" "0603 Chip site" 743.00mil 200.00mil 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square,warn"]
 	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
 
 	)
@@ -919,21 +919,21 @@ Element["hidename" "0402" "J9" "0" 802.00mil 271.00mil 2.8248mm 1.2432mm 2 100 "
 
 Element["" "smt0603" "" "0603 Chip site" 705.00mil 200.00mil 18.00mil 3.00mil 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
-	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square,warn"]
+	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,warn,edge2"]
 
 	)
 
 Element["" "" "" "" 774.00mil 364.00mil 0.0000 0.0000 1 100 ""]
 (
-	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square"]
-	Pad[0.0000 -1.1000mm 0.0000 -1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "2" "square"]
+	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square,warn"]
+	Pad[0.0000 -1.1000mm 0.0000 -1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "2" "square,warn"]
 
 	)
 
 Element["" "" "" "" 718.00mil 364.00mil 0.0000 0.0000 1 100 ""]
 (
-	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square"]
+	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square,warn"]
 	Pad[0.0000 -1.1000mm 0.0000 -1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "2" "square"]
 
 	)
@@ -964,8 +964,8 @@ Element["hidename" "0402" "R3" "1k" 669.00mil 12.9860mm 27.50mil -132.50mil 3 10
 
 Element["" "smt0603" "" "0603 Chip site" 667.00mil 327.00mil 1.00mil -21.00mil 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
-	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square,warn"]
+	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,warn,edge2"]
 
 	)
 
@@ -1005,12 +1005,12 @@ Element["hidename" "USB_MICRO_F" "CON1" "mini_usb" 1088.00mil 689.00mil 264.00mi
 	Pad[0.0000 -124.00mil 0.0000 -87.00mil 16.00mil 16.00mil 16.00mil "3" "3" "square"]
 	Pad[26.00mil -124.00mil 26.00mil -87.00mil 16.00mil 16.00mil 16.00mil "4" "4" "square"]
 	Pad[51.00mil -124.00mil 51.00mil -87.00mil 16.00mil 16.00mil 16.00mil "5" "5" "square"]
-	Pad[112.00mil -100.00mil 136.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square,edge2"]
-	Pad[-136.00mil -100.00mil -112.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square"]
-	Pad[47.00mil 0.0000 47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square,edge2"]
-	Pad[-47.00mil 0.0000 -47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square"]
-	Pad[150.00mil -2.00mil 150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,edge2"]
-	Pad[-150.00mil -2.00mil -150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,edge2"]
+	Pad[112.00mil -100.00mil 136.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square,warn,edge2"]
+	Pad[-136.00mil -100.00mil -112.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square,warn"]
+	Pad[47.00mil 0.0000 47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square,warn,edge2"]
+	Pad[-47.00mil 0.0000 -47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square,warn"]
+	Pad[150.00mil -2.00mil 150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,warn,edge2"]
+	Pad[-150.00mil -2.00mil -150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,warn,edge2"]
 
 	)
 
@@ -1065,15 +1065,15 @@ Element["hidename" "0805" "L50" "22uF" 1493.00mil 158.00mil 0.0000 0.0000 0 100 
 
 Element["" "smt0603" "" "0603 Chip site" 1696.00mil 160.00mil 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
-	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square,warn"]
+	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,warn,edge2"]
 
 	)
 
 Element["" "smt0603" "" "0603 Chip site" 1641.00mil 389.00mil 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
-	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square,warn"]
+	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,warn,edge2"]
 
 	)
 
@@ -1160,7 +1160,7 @@ Element["hidename" "QFN16_3_EP" "U5" "SolarMPPCharger" 1590.00mil 279.00mil -37.
 	Pad[9.84mil -63.38mil 9.84mil -46.85mil 11.02mil 20.00mil 14.02mil "VBAT" "14" "square,octagon"]
 	Pad[-9.84mil -63.38mil -9.84mil -46.85mil 11.02mil 20.00mil 14.02mil "VSTOR" "15" "square,octagon"]
 	Pad[-29.52mil -63.38mil -29.52mil -46.85mil 11.02mil 20.00mil 14.02mil "LBST" "16" "square,octagon"]
-	Pad[0.0000 0.0000 0.0000 0.0000 59.05mil 0.0000 63.05mil "17" "17" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 0.0000 59.05mil 0.0000 63.05mil "17" "17" "square,warn,edge2"]
 	ElementLine [78.89mil 78.89mil 78.89mil -78.89mil 10.00mil]
 	ElementLine [78.89mil -78.89mil -78.89mil -78.89mil 10.00mil]
 	ElementLine [-78.89mil -78.89mil -78.89mil 78.89mil 10.00mil]
@@ -1387,21 +1387,21 @@ Element["hidename" "0402" "R2" "1k" 1067.00mil 314.00mil -0.7013mm -1.9399mm 0 1
 
 Element["" "" "" "" 985.00mil 387.00mil 0.0000 0.0000 1 100 ""]
 (
-	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square"]
-	Pad[0.0000 -1.1000mm 0.0000 -1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "2" "square"]
+	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square,warn"]
+	Pad[0.0000 -1.1000mm 0.0000 -1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "2" "square,warn"]
 
 	)
 
 Element["" "" "" "" 928.00mil 387.00mil 0.0000 0.0000 1 100 ""]
 (
-	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square"]
-	Pad[0.0000 -1.1000mm 0.0000 -1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "2" "square"]
+	Pad[0.0000 1.1000mm 0.0000 1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "1" "square,warn"]
+	Pad[0.0000 -1.1000mm 0.0000 -1.1000mm 1.2000mm 1.2000mm 1.2000mm "" "2" "square,warn"]
 
 	)
 
 Element["" "smt1206" "" "1206 Chip site" 1020.00mil 510.00mil 0.0000 0.0000 0 100 ""]
 (
-	Pad[0.0000 0.0000 1.00mil 0.0000 60.00mil 30.00mil 66.00mil "1" "1" "square"]
+	Pad[0.0000 0.0000 1.00mil 0.0000 60.00mil 30.00mil 66.00mil "1" "1" "square,warn"]
 	Pad[120.00mil 0.0000 121.00mil 0.0000 60.00mil 30.00mil 66.00mil "2" "2" "square,edge2"]
 
 	)
@@ -1409,7 +1409,7 @@ Element["" "smt1206" "" "1206 Chip site" 1020.00mil 510.00mil 0.0000 0.0000 0 10
 Element["" "" "" "" 1190.00mil 452.00mil 0.0000 0.0000 0 100 ""]
 (
 	Pad[-1.1000mm 0.0000 -1.1000mm 0.0000 1.2000mm 1.2000mm 1.2000mm "" "1" "square"]
-	Pad[1.1000mm 0.0000 1.1000mm 0.0000 1.2000mm 1.2000mm 1.2000mm "" "2" "square,edge2"]
+	Pad[1.1000mm 0.0000 1.1000mm 0.0000 1.2000mm 1.2000mm 1.2000mm "" "2" "square,warn,edge2"]
 
 	)
 
@@ -1458,8 +1458,8 @@ Element["hidename" "0402" "C70" "unknown" 42.7680mm 572.00mil 31.50mil 31.50mil 
 
 Element["" "smt0603" "" "0603 Chip site" 1628.00mil 520.50mil 0.0000 0.0000 3 100 ""]
 (
-	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square"]
-	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,edge2"]
+	Pad[0.0000 0.0000 0.0000 1.00mil 30.00mil 30.00mil 36.00mil "1" "1" "square,warn"]
+	Pad[0.0000 60.00mil 0.0000 61.00mil 30.00mil 30.00mil 36.00mil "2" "2" "square,warn,edge2"]
 
 	)
 Rat[928.00mil 344.00mil 0 928.00mil 10.9298mm 0  ""]
@@ -1774,8 +1774,6 @@ Layer(1 "top")
 	Line[1746.00mil 644.00mil 43.5015mm 644.00mil 8.00mil 16.00mil "clearline"]
 	Line[43.5015mm 644.00mil 43.4963mm 16.3628mm 8.00mil 16.00mil "clearline"]
 	Line[1668.00mil 571.96mil 42.3682mm 572.00mil 8.00mil 16.00mil "clearline"]
-	Line[1728.00mil 494.00mil 1728.00mil 543.52mil 8.00mil 16.00mil "clearline"]
-	Line[1728.00mil 543.52mil 43.1678mm 572.00mil 8.00mil 16.00mil "clearline"]
 	Line[43.4963mm 15.7128mm 42.8654mm 15.7128mm 8.00mil 16.00mil "clearline"]
 	Line[42.8654mm 15.7128mm 1668.00mil 599.00mil 8.00mil 16.00mil "clearline"]
 	Line[1668.00mil 599.00mil 1668.00mil 574.00mil 8.00mil 16.00mil "clearline"]
@@ -1795,8 +1793,13 @@ Layer(1 "top")
 	Line[1627.00mil 582.00mil 1628.00mil 581.00mil 8.00mil 16.00mil "clearline"]
 	Line[1574.00mil 517.00mil 1624.00mil 517.00mil 8.00mil 16.00mil "clearline"]
 	Line[1624.00mil 517.00mil 1628.00mil 521.00mil 8.00mil 16.00mil "clearline"]
-	Line[1628.00mil 521.00mil 1701.00mil 521.00mil 8.00mil 16.00mil "clearline"]
-	Line[1701.00mil 521.00mil 1728.00mil 494.00mil 8.00mil 16.00mil "clearline"]
+	Line[1627.50mil 520.50mil 1701.50mil 520.50mil 8.00mil 16.00mil "clearline"]
+	Line[1701.50mil 520.50mil 1728.00mil 494.00mil 8.00mil 16.00mil "clearline"]
+	Line[43.1678mm 572.00mil 43.1678mm 520.52mil 8.00mil 16.00mil "clearline"]
+	Line[43.1678mm 520.52mil 1699.50mil 520.50mil 8.00mil 16.00mil "clearline"]
+	Line[1487.00mil 272.00mil 1487.00mil 219.00mil 8.00mil 16.00mil "clearline"]
+	Line[1487.00mil 219.00mil 1474.00mil 206.00mil 8.00mil 16.00mil "clearline"]
+	Line[1474.00mil 206.00mil 1457.00mil 206.00mil 8.00mil 16.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[3.0196mm 15.7464mm] [14.0178mm 15.7464mm] [14.0178mm 4.8244mm] [3.0196mm 4.8244mm] [3.0196mm 6.6278mm] 
@@ -1946,57 +1949,52 @@ NetList()
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
-		Connect("R59-2")
-		Connect("U5-2")
-	)
-	Net("unnamed_net8" "(unknown)")
-	(
 		Connect("R58-2")
 		Connect("R59-1")
 		Connect("U5-3")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("C50-2")
 		Connect("U5-4")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("R56-2")
 		Connect("R57-1")
 		Connect("U5-6")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("R53-1")
 		Connect("R54-2")
 		Connect("R57-2")
 		Connect("U5-7")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("R54-1")
 		Connect("R55-2")
 		Connect("U5-8")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("R52-1")
 		Connect("R53-2")
 		Connect("U5-9")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("R51-1")
 		Connect("R52-2")
 		Connect("U5-10")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("L50-2")
 		Connect("U5-16")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("B80-1")
 		Connect("U7-7")
@@ -2035,7 +2033,9 @@ NetList()
 	(
 		Connect("C51-2")
 		Connect("L50-1")
+		Connect("R59-2")
 		Connect("S40-1")
+		Connect("U5-2")
 	)
 	Net("VStor" "(unknown)")
 	(
