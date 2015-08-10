@@ -2,14 +2,12 @@
 <hardware>
 	<sleeposc enable="true" ppm="30" />
 	<usb enable="false" endpoint="none" />
-	<txpower power="15" bias="5" />
+	<txpower power="9" bias="5" />
 	<script enable="true" />
 	<slow_clock enable="false" />
-	<sleep enable="true" />
-	<port index="0" pull="up" tristatemask="0" />
-	<port index="1" pull="up" tristatemask="$5F" />
-	<port index="1" pull="down" tristatemask="$10" />
-	<port index="2" pull="up" tristatemask="0" />
+	<sleep enable="false" />
+	<port index="0" pull="down" tristatemask="$7F" />
+	<port index="1" pull="down" tristatemask="$AF" />
 	<wakeup_pin enable="true" port="1" pin="4" state="up" />
-	<timer index="1" enabled_channels="0x01" divisor="0" mode="2" alternate="2" />
+	<timer index="1" enabled_channels="0x09" divisor="0" mode="2" alternate="2" />
 </hardware>
