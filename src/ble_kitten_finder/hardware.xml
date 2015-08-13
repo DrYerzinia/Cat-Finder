@@ -3,11 +3,12 @@
 	<sleeposc enable="true" ppm="30" />
 	<usb enable="false" endpoint="none" />
 	<txpower power="9" bias="5" />
+	<pmux regulator_pin="7" />
 	<script enable="true" />
 	<slow_clock enable="false" />
-	<sleep enable="false" />
-	<port index="0" pull="down" tristatemask="$7F" />
-	<port index="1" pull="down" tristatemask="$AF" />
-	<wakeup_pin enable="true" port="1" pin="4" state="up" />
+	<sleep enable="true" max_mode="2"/>
+	<port index="0" pull="down" tristatemask="0" />
+	<port index="2" pull="down" tristatemask="0" />
+	<wakeup_pin enable="true" port="0" pin="4" state="up" />
 	<timer index="1" enabled_channels="0x09" divisor="0" mode="2" alternate="2" />
 </hardware>
