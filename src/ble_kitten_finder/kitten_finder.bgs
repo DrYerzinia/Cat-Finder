@@ -55,40 +55,34 @@ event system_boot(major, minor, patch, build, ll_version, protocol_version, hw)
 		sr_data(2 + i:1) = cat_name(1 + i:1)
 		i = i + 1
 	end while
-	sr_data(i + 2:1) = $20 # ' '
-	sr_data(i + 3:1) = $3f # '?'
-	sr_data(i + 4:1) = $3f # '?'
-	sr_data(i + 5:1) = $3f # '?'
 	name_end = i + 2
 
 	# write custom device name to local GATT attribute
 	call attributes_write(c_device_name, 0, 18, sr_data(2:18))
 
-	# set advertisement interval to 10.24 seconds, channel 39
+	# set advertisement interval to 640 mS, all channels
 	# units for min max 625 uS
-	call gap_set_adv_parameters($200, $200, $04)
+	call gap_set_adv_parameters($400, $400, $07)
 
 	# System started, enable advertising and allow connections
+	# Wait 10 seconds and then stop beaconing
 	call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
-
-	#call hardware_set_soft_timer(30000, 1, 0)
-	# Check battery voltage every 30 seconds, and right away
-	#call hardware_set_soft_timer(30000, 2, 0)
+	call hardware_set_soft_timer(10 * 32768, 2, 1)
 
 end
 
-#Timer event listener toggles LED if xgatt_led_value is > 0
 event hardware_soft_timer(handle)
 
-	# Finish flashing LED to indicate low battery
+	# Transmit for 10 seconds
 	if handle = 3 then
-		call hardware_io_port_write(1, $40, 0)
-		call hardware_set_soft_timer(900000, 2, 0)
+		call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
+		call hardware_set_soft_timer(10 * 32768, 2, 1)
 	end if
 
-	# Initate a battery voltage measurment
+	# Stop transmiting
 	if handle = 2 then
-		call hardware_adc_read(15, 3, 0)
+		call gap_set_mode(0, 0)
+		call hardware_set_soft_timer(110*32768, 3, 1)
 	end if
 
 	# blink and beep when connected to help user find collar
@@ -100,57 +94,26 @@ event hardware_soft_timer(handle)
 			call hardware_timer_comparator(1, 0, 6, 8000)
 			call hardware_timer_comparator(1, 3, 6, 4000)
 			state = 0
-			call hardware_set_soft_timer(10000, 1, 0)
+			call hardware_set_soft_timer(10000, 1, 1)
 		else
 			# Turn off LED and WAKE
 			call hardware_io_port_write(1, $50, 0)
 			call hardware_io_port_write(0, $10, 0)
 			call hardware_timer_comparator(1, 3, 1, 0)
 			state = 1
-			call hardware_set_soft_timer(150000, 1, 0)
+			call hardware_set_soft_timer(150000, 1, 1)
 		end if
 	end if
 
 end
 
-# Measures battery voltage and updates advertisment text to reflect current
-# percentage as well as blinking led if it is below 20%
-event hardware_adc_result(input, value)
-
-	if input = 15 then
-
-		bat_pct = (value - 17616) * 100 / (23342 - 17616)
-
-		# enforce 0%/100% bounds
-		if bat_pct > 100 then
-			bat_pct = 100
-		end if
-		if bat_pct < 0 then
-			bat_pct = 0
-		end if
-
-	if bat_pct < 20 then
-			call hardware_io_port_write(1, $40, $40)
-			call hardware_set_soft_timer(5000, 3, 0)
-	end if
-
-	# Set Advertisement Battery Voltage
-	sr_data(name_end + 1:1) = (bat_pct / 100) + 48
-		sr_data(name_end + 2:1) = (bat_pct / 10) + (bat_pct / -100 * 10) + 48
-		sr_data(name_end + 3:1) = bat_pct + (bat_pct / 10 * -10) + 48
-		call gap_set_adv_data(1, 20, sr_data(0:20))
-
-	end if
-end
-	
 # Gets changes to GATT attributes
 # Changes cats name if updated
 event attributes_value(connection, reason, handle, offset, value_len, value)
-	if handle = xgatt_led then
-		#xgatt_led_value = value(0:1)
-	end if
+
 	if handle = xcat_name then
 		call flash_ps_save($8000, value_len, value(0:value_len))
+
 	cat_name(0:value_len) = value(0:value_len)
 		i = 0
 		len = cat_name(0:1)
@@ -158,15 +121,6 @@ event attributes_value(connection, reason, handle, offset, value_len, value)
 			sr_data(2 + i:1) = cat_name(1 + i:1)
 			i = i + 1
 		end while
-		sr_data(i + 2:1) = $20 # ' '
-		sr_data(i + 3:1) = $3f # '?'
-		sr_data(i + 4:1) = $3f # '?'
-		sr_data(i + 5:1) = $3f # '?'
-		name_end = i + 2
-		while i < 16
-			sr_data(2 + i:1) = $20 # ' '
-			i = i + 1
-	end while
 	end if
 end
 
@@ -176,18 +130,25 @@ event connection_status(connection, flags, address, address_type, conn_interval,
 	# Device is connected.
 	if (flags & $05) = $05 then
 		state = 1
-		call hardware_set_soft_timer(30000, 1, 0)
+		call hardware_set_soft_timer(30000, 1, 1)
 	end if
 end
 
 # Stops beeping and flashing on disconnect
 event connection_disconnected(handle, result)
-	call gap_set_mode(gap_general_discoverable, gap_undirected_connectable)
-	call hardware_set_soft_timer(0, 1, 0)
+
+	# Turn off LED and Buzzer
 	call hardware_io_port_write(1, $40, 0)
 	call hardware_io_port_write(0, $90, 0)
 	call hardware_timer_comparator(1, 3, 1, 0)
 	state = 1
-	call hardware_set_soft_timer(30000, 2, 0)
+
+	# Stop timers
+	call hardware_set_soft_timer(0, 1, 1)
+	call hardware_set_soft_timer(0, 2, 1)
+	call hardware_set_soft_timer(0, 3, 1)
+	# Start beaconing again
+	call hardware_set_soft_timer(1, 3, 1)
+
 end
 
