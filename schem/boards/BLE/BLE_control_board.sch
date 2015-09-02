@@ -564,7 +564,7 @@ supplier=Digikey
 T 46000 57900 5 10 1 1 0 0 1
 refdes=Q2
 T 46000 57700 5 10 1 1 0 0 1
-footprint=SOT923F
+footprint=SOT723
 T 45100 57300 5 10 0 0 0 0 1
 part-number=MMBT3904SL
 }
@@ -994,7 +994,7 @@ supplier=Digikey
 T 46000 54000 5 10 1 1 0 0 1
 refdes=Q1
 T 46000 53800 5 10 1 1 0 0 1
-footprint=SOT923F
+footprint=SOT723
 T 45100 53400 5 10 0 0 0 0 1
 part-number=MMBT3904SL
 }
@@ -1160,7 +1160,7 @@ refdes=C77
 T 46000 55100 5 10 0 0 90 0 1
 symversion=0.1
 T 46800 55500 5 10 1 1 0 0 1
-footprint=0804W
+footprint=0805W
 T 46800 55000 5 10 1 1 0 0 1
 value=22uF
 T 46900 54900 5 10 0 0 0 0 1
