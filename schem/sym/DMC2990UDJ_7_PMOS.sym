@@ -1,0 +1,92 @@
+v 20130925 2
+L 250 600 500 600 3 0 0 0 -1 -1
+L 250 200 500 200 3 0 0 0 -1 -1
+L 400 400 300 450 3 0 0 0 -1 -1
+L 400 400 300 350 3 0 0 0 -1 -1
+P 0 200 200 200 1 0 0
+{
+T 105 245 5 10 1 1 0 6 1
+pinnumber=5
+T 255 195 9 10 0 1 0 0 1
+pinlabel=G
+T 0 300 5 10 0 0 0 0 1
+pinseq=1
+T 0 300 5 10 0 0 0 0 1
+pintype=pas
+T 0 200 5 10 0 0 0 0 1
+pintype=unknown
+T 255 195 5 10 0 1 0 0 1
+pinlabel=unknown
+T 105 245 5 10 0 1 0 6 1
+pinnumber=0
+T 0 200 5 10 0 0 0 0 1
+pinseq=0
+T 0 200 5 10 0 0 0 0 1
+pintype=unknown
+T 0 200 5 10 0 0 0 0 1
+pinseq=0
+}
+P 500 200 500 0 1 0 1
+{
+T 405 0 5 10 1 1 0 6 1
+pinnumber=4
+T 500 255 9 10 0 1 90 0 1
+pinlabel=D
+T 700 100 5 10 0 0 180 0 1
+pinseq=2
+T 700 100 5 10 0 0 180 0 1
+pintype=pas
+T 500 200 5 10 0 0 180 0 1
+pintype=unknown
+T 500 255 5 10 0 1 90 0 1
+pinlabel=unknown
+T 450 105 5 10 0 1 90 6 1
+pinnumber=0
+T 500 200 5 10 0 0 180 0 1
+pinseq=0
+T 500 200 5 10 0 0 0 0 1
+pintype=unknown
+T 500 200 5 10 0 0 0 0 1
+pinseq=0
+}
+P 500 600 500 800 1 0 1
+{
+T 405 650 5 10 1 1 0 6 1
+pinnumber=3
+T 500 545 9 10 0 1 90 6 1
+pinlabel=S
+T 700 800 5 10 0 0 180 0 1
+pinseq=3
+T 700 800 5 10 0 0 180 0 1
+pintype=pas
+T 500 600 5 10 0 0 180 0 1
+pintype=unknown
+T 500 545 5 10 0 1 90 6 1
+pinlabel=unknown
+T 450 695 5 10 0 1 90 0 1
+pinnumber=0
+T 500 600 5 10 0 0 180 0 1
+pinseq=0
+T 500 600 5 10 0 0 0 0 1
+pintype=unknown
+T 500 600 5 10 0 0 0 0 1
+pinseq=0
+}
+L 250 675 250 525 3 0 0 0 -1 -1
+L 250 475 250 325 3 0 0 0 -1 -1
+L 250 275 250 125 3 0 0 0 -1 -1
+L 200 600 200 200 3 0 0 0 -1 -1
+L 250 400 400 400 3 0 0 0 -1 -1
+L 400 400 400 200 3 0 0 0 -1 -1
+T 600 500 5 10 0 0 0 0 1
+device=NMOS_TRANSISTOR
+T 600 500 5 10 0 0 0 0 1
+numslots=0
+T 600 500 5 10 0 0 0 0 1
+description=generic N channel MOS transistor (enhancement type)
+T 600 600 8 10 1 1 0 0 1
+refdes=Q?
+T 600 400 8 10 1 1 0 0 1
+device=DMC2990UDJ-7
+T 600 200 8 10 1 1 0 0 1
+footprint=SOT963
