@@ -1,0 +1,228 @@
+v 20130925 2
+P 0 3200 400 3200 1 0 0
+{
+T 0 3200 5 10 0 0 180 0 1
+pintype=unknown
+T 455 3195 5 10 1 1 0 0 1
+pinlabel=VSS
+T 305 3245 5 10 1 1 0 6 1
+pinnumber=1
+T 0 3200 5 10 0 0 180 0 1
+pinseq=0
+}
+P 0 2800 400 2800 1 0 0
+{
+T 0 2800 5 10 0 0 180 0 1
+pintype=unknown
+T 455 2795 5 10 1 1 0 0 1
+pinlabel=VIN_DC
+T 305 2845 5 10 1 1 0 6 1
+pinnumber=2
+T 0 2800 5 10 0 0 180 0 1
+pinseq=0
+}
+P 0 2400 400 2400 1 0 0
+{
+T 0 2400 5 10 0 0 180 0 1
+pintype=unknown
+T 455 2395 5 10 1 1 0 0 1
+pinlabel=VOC_SAMP
+T 305 2445 5 10 1 1 0 6 1
+pinnumber=3
+T 0 2400 5 10 0 0 180 0 1
+pinseq=0
+}
+P 0 2000 400 2000 1 0 0
+{
+T 0 2000 5 10 0 0 180 0 1
+pintype=unknown
+T 455 1995 5 10 1 1 0 0 1
+pinlabel=VREF_SAMP
+T 305 2045 5 10 1 1 0 6 1
+pinnumber=4
+T 0 2000 5 10 0 0 180 0 1
+pinseq=0
+}
+P 1600 0 1600 400 1 0 0
+{
+T 1600 0 5 10 0 0 270 0 1
+pintype=unknown
+T 1600 455 5 10 1 1 90 0 1
+pinlabel=NC
+T 1550 305 5 10 1 1 90 6 1
+pinnumber=6
+T 1600 0 5 10 0 0 270 0 1
+pinseq=0
+}
+P 2000 0 2000 400 1 0 0
+{
+T 2000 0 5 10 0 0 270 0 1
+pintype=unknown
+T 2000 455 5 10 1 1 90 0 1
+pinlabel=VBAT_OV
+T 1950 305 5 10 1 1 90 6 1
+pinnumber=7
+T 2000 0 5 10 0 0 270 0 1
+pinseq=0
+}
+P 2400 0 2400 400 1 0 0
+{
+T 2400 0 5 10 0 0 270 0 1
+pintype=unknown
+T 2400 455 5 10 1 1 90 0 1
+pinlabel=VRDIV
+T 2350 305 5 10 1 1 90 6 1
+pinnumber=8
+T 2400 0 5 10 0 0 270 0 1
+pinseq=0
+}
+P 2800 0 2800 400 1 0 0
+{
+T 2800 0 5 10 0 0 270 0 1
+pintype=unknown
+T 2800 455 5 10 1 1 90 0 1
+pinlabel=~VB_SEC_ON
+T 2750 305 5 10 1 1 90 6 1
+pinnumber=9
+T 2800 0 5 10 0 0 270 0 1
+pinseq=0
+}
+P 4800 2800 4400 2800 1 0 0
+{
+T 4800 2800 5 10 0 0 0 0 1
+pintype=unknown
+T 4345 2795 5 10 1 1 0 6 1
+pinlabel=VBAT_PRI
+T 4495 2845 5 10 1 1 0 0 1
+pinnumber=14
+T 4800 2800 5 10 0 0 0 0 1
+pinseq=0
+}
+P 4800 2000 4400 2000 1 0 0
+{
+T 4800 2000 5 10 0 0 0 0 1
+pintype=unknown
+T 4345 1995 5 10 1 1 0 6 1
+pinlabel=OK_PROG
+T 4495 2045 5 10 1 1 0 0 1
+pinnumber=12
+T 4800 2000 5 10 0 0 0 0 1
+pinseq=0
+}
+P 4800 2400 4400 2400 1 0 0
+{
+T 4800 2400 5 10 0 0 0 0 1
+pintype=unknown
+T 4345 2395 5 10 1 1 0 6 1
+pinlabel=VBAT_OK
+T 4495 2445 5 10 1 1 0 0 1
+pinnumber=13
+T 4800 2400 5 10 0 0 0 0 1
+pinseq=0
+}
+P 4800 3200 4400 3200 1 0 0
+{
+T 4800 3200 5 10 0 0 0 0 1
+pintype=unknown
+T 4345 3195 5 10 1 1 0 6 1
+pinlabel=VSS
+T 4495 3245 5 10 1 1 0 0 1
+pinnumber=15
+T 4800 3200 5 10 0 0 0 0 1
+pinseq=0
+}
+P 2800 4800 2800 4400 1 0 0
+{
+T 2800 4800 5 10 0 0 90 0 1
+pintype=unknown
+T 2800 4345 5 10 1 1 90 6 1
+pinlabel=NC
+T 2750 4495 5 10 1 1 90 0 1
+pinnumber=17
+T 2800 4800 5 10 0 0 90 0 1
+pinseq=0
+}
+P 2400 4800 2400 4400 1 0 0
+{
+T 2400 4800 5 10 0 0 90 0 1
+pintype=unknown
+T 2400 4345 5 10 1 1 90 6 1
+pinlabel=VBAT_SEC
+T 2350 4495 5 10 1 1 90 0 1
+pinnumber=18
+T 2400 4800 5 10 0 0 90 0 1
+pinseq=0
+}
+P 2000 4800 2000 4400 1 0 0
+{
+T 2000 4800 5 10 0 0 90 0 1
+pintype=unknown
+T 2000 4345 5 10 1 1 90 6 1
+pinlabel=VSTOR
+T 1950 4495 5 10 1 1 90 0 1
+pinnumber=19
+T 2000 4800 5 10 0 0 90 0 1
+pinseq=0
+}
+P 1600 4800 1600 4400 1 0 0
+{
+T 1600 4800 5 10 0 0 90 0 1
+pintype=unknown
+T 1600 4345 5 10 1 1 90 6 1
+pinlabel=LBOOST
+T 1550 4495 5 10 1 1 90 0 1
+pinnumber=20
+T 1600 4800 5 10 0 0 90 0 1
+pinseq=0
+}
+B 400 400 4000 4000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 400 4500 8 10 1 1 0 0 1
+refdes=U?
+T 2100 2400 8 10 1 1 0 0 1
+device=BQ25505
+T 4400 4500 8 10 1 1 0 6 1
+footprint=QFN20_4_EP
+P 0 1600 400 1600 1 0 0
+{
+T 0 1600 5 10 0 0 180 0 1
+pintype=unknown
+T 455 1595 5 10 1 1 0 0 1
+pinlabel=~EN
+T 305 1645 5 10 1 1 0 6 1
+pinnumber=5
+T 0 1600 5 10 0 0 180 0 1
+pinseq=0
+}
+P 3200 0 3200 400 1 0 0
+{
+T 3200 0 5 10 0 0 270 0 1
+pintype=unknown
+T 3200 455 5 10 1 1 90 0 1
+pinlabel=~VB_PRI_ON
+T 3150 305 5 10 1 1 90 6 1
+pinnumber=10
+T 3200 0 5 10 0 0 270 0 1
+pinseq=0
+}
+P 4800 1600 4400 1600 1 0 0
+{
+T 4800 1600 5 10 0 0 0 0 1
+pintype=unknown
+T 4345 1595 5 10 1 1 0 6 1
+pinlabel=OK_HYST
+T 4495 1645 5 10 1 1 0 0 1
+pinnumber=11
+T 4800 1600 5 10 0 0 0 0 1
+pinseq=0
+}
+P 3200 4800 3200 4400 1 0 0
+{
+T 3200 4800 5 10 0 0 90 0 1
+pintype=unknown
+T 3200 4345 5 10 1 1 90 6 1
+pinlabel=NC
+T 3150 4495 5 10 1 1 90 0 1
+pinnumber=16
+T 3200 4800 5 10 0 0 90 0 1
+pinseq=0
+}
