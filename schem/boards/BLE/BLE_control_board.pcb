@@ -1058,7 +1058,7 @@ Element["hidename" "QFN16_3_EP" "U5" "SolarMPPCharger" 1821.00mil 315.00mil -37.
 	Pad[9.84mil -63.38mil 9.84mil -46.85mil 11.02mil 20.00mil 12.02mil "VBAT" "14" "square,octagon"]
 	Pad[-9.84mil -63.38mil -9.84mil -46.85mil 11.02mil 20.00mil 12.02mil "VSTOR" "15" "square,octagon"]
 	Pad[-29.52mil -63.38mil -29.52mil -46.85mil 11.02mil 20.00mil 12.02mil "LBST" "16" "square,octagon"]
-	Pad[0.0000 0.0000 0.0000 0.0000 59.05mil 0.0000 61.05mil "17" "17" "square,warn,edge2"]
+	Pad[0.0000 0.0000 0.0000 0.0000 59.05mil 0.0000 61.05mil "17" "17" "square,edge2"]
 	ElementLine [78.89mil 78.89mil 78.89mil -78.89mil 10.00mil]
 	ElementLine [78.89mil -78.89mil -78.89mil -78.89mil 10.00mil]
 	ElementLine [-78.89mil -78.89mil -78.89mil 78.89mil 10.00mil]
@@ -1366,12 +1366,12 @@ Element["hidename" "USB_MICRO_F" "CON1" "mini_usb" 1334.00mil 657.00mil 264.00mi
 	Pad[0.0000 -124.00mil 0.0000 -87.00mil 16.00mil 16.00mil 16.00mil "3" "3" "square"]
 	Pad[26.00mil -124.00mil 26.00mil -87.00mil 16.00mil 16.00mil 16.00mil "4" "4" "square"]
 	Pad[51.00mil -124.00mil 51.00mil -87.00mil 16.00mil 16.00mil 16.00mil "5" "5" "square"]
-	Pad[112.00mil -100.00mil 136.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square,warn,edge2"]
-	Pad[-136.00mil -100.00mil -112.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square,warn"]
-	Pad[47.00mil 0.0000 47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square,warn,edge2"]
-	Pad[-47.00mil 0.0000 -47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square,warn"]
-	Pad[150.00mil -2.00mil 150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,warn,edge2"]
-	Pad[-150.00mil -2.00mil -150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,warn,edge2"]
+	Pad[112.00mil -100.00mil 136.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square,edge2"]
+	Pad[-136.00mil -100.00mil -112.00mil -100.00mil 63.00mil 63.00mil 63.00mil "" "" "square"]
+	Pad[47.00mil 0.0000 47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square,edge2"]
+	Pad[-47.00mil 0.0000 -47.00mil 0.0000 74.00mil 74.00mil 74.00mil "" "" "square"]
+	Pad[150.00mil -2.00mil 150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,edge2"]
+	Pad[-150.00mil -2.00mil -150.00mil 2.00mil 71.00mil 71.00mil 71.00mil "" "" "square,edge2"]
 
 	)
 
@@ -1688,9 +1688,6 @@ Layer(1 "top")
 	Line[1180.00mil 480.00mil 1085.00mil 575.00mil 8.00mil 16.00mil "clearline"]
 	Line[1085.00mil 575.00mil 1020.00mil 575.00mil 8.00mil 16.00mil "clearline"]
 	Line[1326.00mil 512.00mil 1326.00mil 476.00mil 8.00mil 16.00mil "clearline"]
-	Line[1326.00mil 476.00mil 1310.00mil 460.00mil 8.00mil 16.00mil "clearline"]
-	Line[1310.00mil 460.00mil 1125.00mil 460.00mil 8.00mil 16.00mil "clearline"]
-	Line[1125.00mil 460.00mil 1040.00mil 545.00mil 8.00mil 16.00mil "clearline"]
 	Line[1070.00mil 613.52mil 27.9776mm 613.52mil 8.00mil 16.00mil "clearline"]
 	Line[27.9776mm 613.52mil 1110.00mil 605.00mil 8.00mil 16.00mil "clearline"]
 	Line[890.00mil 395.00mil 818.00mil 395.00mil 8.00mil 16.00mil "clearline"]
@@ -1766,6 +1763,10 @@ Layer(1 "top")
 	Line[1922.00mil 305.00mil 1930.00mil 297.00mil 6.00mil 12.00mil "clearline"]
 	Line[1930.00mil 297.00mil 1945.00mil 297.00mil 6.00mil 12.00mil "clearline"]
 	Line[1609.00mil 427.00mil 1609.00mil 413.00mil 6.00mil 12.00mil "clearline"]
+	Line[1040.00mil 545.00mil 1089.00mil 545.00mil 8.00mil 16.00mil "clearline"]
+	Line[1089.00mil 545.00mil 1168.00mil 466.00mil 8.00mil 16.00mil "clearline"]
+	Line[1168.00mil 466.00mil 1316.00mil 466.00mil 8.00mil 16.00mil "clearline"]
+	Line[1316.00mil 466.00mil 1326.00mil 476.00mil 8.00mil 16.00mil "clearline"]
 	Polygon("clearpoly")
 	(
 		[121.00mil 418.00mil] [319.00mil 418.00mil] [319.00mil 120.00mil] [876.00mil 120.00mil] [876.00mil 714.00mil] 
@@ -1886,6 +1887,7 @@ Layer(9 "silk")
 	Text[1536.00mil 582.00mil 0 122 "erzinia" "clearline,onsolder"]
 	Text[1071.00mil 222.00mil 0 122 "SolBLETracker" "clearline,onsolder"]
 	Text[1595.00mil 220.00mil 0 122 "r7.1" "clearline,onsolder"]
+	Text[141.00mil 212.00mil 0 144 "BLE112-PFET Test" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[36.6006mm 712.46mil] [36.5757mm 712.23mil] [36.5585mm 711.68mil] [36.5666mm 710.31mil] [36.5951mm 706.69mil] 
