@@ -1,3 +1,2 @@
 c_device_name 3
-xgatt_led 18
-xcat_name 21
+xcat_name 9
